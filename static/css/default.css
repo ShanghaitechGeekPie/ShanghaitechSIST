@@ -1,0 +1,76 @@
+/*
+* @Author: eastpiger
+* @Date:   2015-11-05 15:58:41
+* @Last Modified by:   eastpiger
+* @Last Modified time: 2015-11-07 05:53:06
+*/
+body{
+	background-position: 0px 450px;
+}
+#top{
+	height: 450px;
+}
+#top-logo{
+    text-shadow: 0px 3px 5px rgb(0, 0, 0);
+    position: absolute;
+    top: 160px;
+    text-align: center;
+}
+#top-logo #university{
+	font-size: 36px;
+	line-height: 1.1;
+}
+#default-introducation{
+	padding: 50px 10px;
+}
+#default-introducation p{
+	color: #777777;
+	font-size: 16px;
+	line-height: 24px;
+}
+#default-context{
+	margin: 60px auto;
+}
+.default_news_block{
+	padding: 5px 10px 10px 10px;
+	border-bottom: #EEEEEE solid 1px;
+}
+.default_news_block:hover{
+	background-color: #EEEEEE;
+	cursor: pointer;
+}
+.default_news_block:hover h3{
+	color: #004098;
+}
+.default_news_block:nth-last-child(2){
+	border-bottom: none;
+}
+#default_news_more a{
+	color: #777777;
+}
+.default_events_block{
+	padding: 20px;
+}
+.default_events_block:hover{
+	cursor: pointer;
+}
+.default_events_block:hover .default_events_title{
+	background-color: #EEEEEE;
+}
+.default_events_block:hover .default_events_time,
+.default_events_block:hover .default_events_time span{
+	color: #004098;
+	border-color: #004098;
+}
+.default_events_time > span{
+	font-size: 16px;
+	font-weight: bold;
+}
+.default_events_time > span > span{
+	margin-top: 0px;
+	border-top: 1px solid #777777;
+	color: #777777
+}
+
+
+

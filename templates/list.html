@@ -1,0 +1,192 @@
+{% load staticfiles %}
+{% load cms_tags sekizai_tags %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, minimum-scale=1, user-scalable=no, target-densitydpi=160dpi" />
+		<meta name="keywords" content="上海科技大学,信息科学与技术学院,ShanghaiTech University,School of Information Science and Technology,SIST,Shanghai,China,Chinese Academic of Sciences,Shanghai Pudong Science and Technology Park,Zhangjiang's high-tech industrial development zone,Shanghai Advanced Research Institute,site map,news,events,schools,information,web site,campus,library,admission,research,employment,university">
+		<meta name="description" content="Welcome to ShanghaiTech University The School of Information Science and Technology (SIST) home page, Students, Faculty, Staff, Partners, and the general public can use this site to find information on campus news, services, events, and resources posted on the campus web">
+
+		<title>{% page_attribute "page_title" %} School of Information Science and Technology</title>
+		<link href="{% static "css/bootstrap.css" %}" rel="stylesheet">
+		<link href="{% static "css/common.css" %}" rel="stylesheet">
+		{% block css %}{% endblock %}
+
+		 {% render_block "css" %}
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+				<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+				<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+      {% cms_toolbar %}
+		<div class="container-fluid" id="top">
+			<div class="row-fluid">
+				<div class="col-md-12">
+					<div class="row-fluid">
+						<div class="col-md-12" id="top-menu">
+							<ul class="list-inline pull-right">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About SIST</a></li>
+								<li><a href="#">Academics</a></li>
+								<li><a href="#">Research</a></li>
+								<li><a href="#">People</a></li>
+								<li><a href="#">News & Events</a></li>
+								<li><a href="#">简体中文</a></li>
+							</ul>
+						</div>
+						<div class="col-md-12" id="top-logo">
+							<h1 id="university">ShanghaiTech University</h1>
+							<h1 id="school">School of Information Sciencce and Technology</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="default-introducation">
+			<div class="row">
+				<div class="col-md-12">
+					{% placeholder list_content or %}
+						{% for plugin in instance.child_plugin_instances %}
+    <div style="width: {{ plugin.width }}00px;">
+        {% render_plugin plugin %}
+    </div>
+{% endfor %}
+					{% endplaceholder %}
+					{% render_block "js" %}
+				</div>
+			</div>
+		</div>
+		<div class="container default-hr">
+			<hr>
+		</div>
+		<div class="container" id="footer">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>
+						<small>ShanghaiTech University</small>
+						<br>
+						School of Information Science and Technology
+						<span>Copyright © 2015 ShanghaiTech University · All rights reserved</span>
+					</h2>
+				</div>
+			</div>
+		</div>
+	<!-- 	<div class="container-fluid" id="top_panel">
+			<div class="row-fluid">
+				<div class="container">
+					<div class="row-fluid">
+						<form class="form-inline pull-right" id="search_panel">
+							<div class="input-group">
+								<input type="text" class="form-control input-xs" placeholder="Search for...">
+								<span class="input-group-btn">
+									<button class="btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+								</span>
+							</div>
+						</form>
+						<h4><a href="http://www.shanghaitech.edu.cn"><span class="hidden-xs">ShanghaiTech University</span><span class="visible-xs-block">ShanghaiTech</span></a></h4>
+						<h1><a href="/"><span class="hidden-xs">School of Information Science and Technology</span><span class="visible-xs-block">SIST</span></a></h1>
+						<img alt="Brand" src="{% static "image/LOGO.png" %}" id="top_panel_header_logo">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" id="top_nav_panel">
+			<div class="row-fluid">
+				<div class="container">
+					<div class="row-fluid">
+						<ul class="list-inline pull-left" id="top_panel_body">
+							<li class="visible-xs-block toggle"><a href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> NAVIGATION MENU</a></li>
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">About SIST</a></li>
+							<li><a href="#">Academics</a></li>
+							<li><a href="#">Research</a></li>
+							<li><a href="#">People</a></li>
+							<li><a href="#">News & Events</a></li>
+							<li><a href="#">简体中文</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{% block body %}
+		{% endblock %}
+
+		<div class="container-fluid" id="link_panel">
+			<div class="row-fluid">
+				<div class="container" id="link_panel_body">
+					<div class="row-fluid">
+						<div class="col-md-3">
+							<h4>About SIST</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Vision and Mission Statement</a></li>
+								<li><a href="#">Dean’s Welcome</a></li>
+								<li><a href="#">About SIST</a></li>
+								<li><a href="#">Advisory Committee</a></li>
+								<li><a href="#">Search Committee-External</a></li>
+								<li><a href="#">SIST Committees</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4>Admission</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Vision and Mission Statement</a></li>
+								<li><a href="#">Dean’s Welcome</a></li>
+								<li><a href="#">About SIST</a></li>
+								<li><a href="#">Advisory Committee</a></li>
+								<li><a href="#">Search Committee-External</a></li>
+								<li><a href="#">SIST Committees</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4>Academics</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Vision and Mission Statement</a></li>
+								<li><a href="#">Dean’s Welcome</a></li>
+								<li><a href="#">About SIST</a></li>
+								<li><a href="#">Advisory Committee</a></li>
+								<li><a href="#">Search Committee-External</a></li>
+								<li><a href="#">SIST Committees</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4>News & Events</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Vision and Mission Statement</a></li>
+								<li><a href="#">Dean’s Welcome</a></li>
+								<li><a href="#">About SIST</a></li>
+								<li><a href="#">Advisory Committee</a></li>
+								<li><a href="#">Search Committee-External</a></li>
+								<li><a href="#">SIST Committees</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" id="about_panel">
+			<div class="row-fluid">
+				<div class="container" id="about_panel_body">
+					<div class="row-fluid">
+						<img src="{% static "image/LOGO_shanghaitech.png" %}">
+						<div id="about_panel_body_addr">
+							<p>100 Haike Road, Pudong New District, Shanghai, People’s Republic of China, 201210</p>
+							<p>Copyright © 2013-2015 ShanghaiTech University All rights reserved　沪ICP备13001436号</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<script src="{% static "js/jquery-2.1.4.min.js" %}"></script>
+		<script src="{% static "js/bootstrap.min.js" %}"></script>
+		<script src="{% static "js/common.js" %}"></script>
+		{% block js %}{% endblock %}
+	</body>
+</html>

@@ -1,0 +1,1630 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"id"
+			],
+			[
+				"Get",
+				"GetChildKeyNodes"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"ur",
+				"url_point"
+			],
+			[
+				"for",
+				"ForeignKey"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"pl",
+				"plateVec"
+			],
+			[
+				"plateVec",
+				"plateVecSplit"
+			],
+			[
+				"pla",
+				"plateVec"
+			],
+			[
+				"b",
+				"beginend	$1.begin(), $1.end()"
+			],
+			[
+				"d",
+				"do	Do While Loop"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"ro",
+				"route"
+			],
+			[
+				"suc",
+				"success"
+			],
+			[
+				"pac",
+				"packets"
+			],
+			[
+				"pr",
+				"processtime"
+			],
+			[
+				"c",
+				"check"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"coo",
+				"cookie_code"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"num",
+				"num"
+			],
+			[
+				"minn",
+				"minn2"
+			],
+			[
+				"min",
+				"minn2"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"bum",
+				"bumpers"
+			],
+			[
+				"sens",
+				"sensorState"
+			],
+			[
+				"tru",
+				"turnleft"
+			],
+			[
+				"exc",
+				"except"
+			],
+			[
+				"sen",
+				"SensorState"
+			],
+			[
+				"ha",
+				"hash"
+			],
+			[
+				"mid",
+				"midpoint"
+			],
+			[
+				"poi",
+				"point"
+			],
+			[
+				"poin",
+				"pointhash"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"ge",
+				"geom_mid"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"gem",
+				"geom_dist"
+			],
+			[
+				"Blu",
+				"BLUE_CONE"
+			],
+			[
+				"is_s",
+				"is_superuser"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"ass",
+				"assignment"
+			],
+			[
+				"contr",
+				"control_for"
+			],
+			[
+				"eleme",
+				"elements"
+			],
+			[
+				"ele",
+				"elements"
+			],
+			[
+				"all_",
+				"all_blocks"
+			],
+			[
+				"line",
+				"linewidth"
+			],
+			[
+				"tra",
+				"transformation"
+			],
+			[
+				"ne",
+				"next_pos_1"
+			],
+			[
+				"ste",
+				"step2"
+			],
+			[
+				"nex",
+				"next_pos"
+			],
+			[
+				"rand",
+				"randoms"
+			],
+			[
+				"ra",
+				"randoms"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"all",
+				"all_line"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"res",
+				"response_data"
+			],
+			[
+				"t",
+				"thead	Tag"
+			],
+			[
+				"messa",
+				"message"
+			],
+			[
+				"heart",
+				"heartbeat_command"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"boe",
+				"border-bottom"
+			],
+			[
+				"troo",
+				"troom_a"
+			],
+			[
+				"vt",
+				"vtime_check"
+			],
+			[
+				"respo",
+				"response_rooms_a"
+			],
+			[
+				"Check",
+				"Check_T"
+			],
+			[
+				"From",
+				"FromC"
+			],
+			[
+				"meeti",
+				"meeting_refresh"
+			],
+			[
+				"C",
+				"Check_F"
+			],
+			[
+				"Che",
+				"Check_T"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"管理员",
+				"管理员已开启禁言"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/theme/dashboard/root.html",
+			"settings":
+			{
+				"buffer_size": 4684,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eastpiger/Archive/Web/UMUNC/umunc_cheetah/view.py",
+			"settings":
+			{
+				"buffer_size": 13750,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST_db/admin.py",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST_dashboard/views.py",
+			"settings":
+			{
+				"buffer_size": 2230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eastpiger/Archive/Document/Club/151018/source/荣宇阳/ye.pas",
+			"settings":
+			{
+				"buffer_size": 2646,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/static/css/dataTables.bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 9023,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/static/js/dashboard/nodes.js",
+			"settings":
+			{
+				"buffer_size": 3625,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 123.0,
+		"last_filter": "javas",
+		"selected_items":
+		[
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mard",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"m",
+				"Markmon launch"
+			],
+			[
+				"mar",
+				"Markmon launch"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"ru",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"pasca",
+				"Set Syntax: Pascal"
+			],
+			[
+				"wod",
+				"Word Wrap: Toggle"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"PYTHON",
+				"Set Syntax: Python"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pyto",
+				"Set Syntax: Python"
+			],
+			[
+				"jaca",
+				"Set Syntax: JavaScript (Rails)"
+			]
+		],
+		"width": 447.0
+	},
+	"console":
+	{
+		"height": 118.0,
+		"history":
+		[
+			"run /tmp/postfix-1.py",
+			"/tmp/postfix-1.py",
+			"ls",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/eastpiger/Web/shanghaitech_SIST"
+	],
+	"file_history":
+	[
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST_db/models.py",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/theme/dashboard/nodes.html",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/static/css/jquery.dataTables.min.css",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/theme/index.html",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST_dashboard/urls.py",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/theme/root.html",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/theme/dashboard/root.html",
+		"/home/eastpiger/Archive/Web/abcpro/apps/system/view/header.php",
+		"/home/eastpiger/Archive/Web/abcpro/apps/system/view/index/right.php",
+		"/home/eastpiger/Archive/Web/abcpro/apps/system/controller/admin/index.php",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/rank.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/rank_list.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/roll.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/showmessage.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/tag.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/tags.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/head_php.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/category.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/list_pic_text.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/map.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/notes.php",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/list.html",
+		"/home/eastpiger/Archive/Web/abcpro/apps/system/controller/url.php",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST/views.py",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/paper/index.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/paper/content.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/head_simple_php.html",
+		"/home/eastpiger/a.py",
+		"/home/eastpiger/httpd-vhosts.conf",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/design.html",
+		"/home/eastpiger/Archive/Web/abcpro/templates/notes.php",
+		"/home/eastpiger/Archive/Web/abcpro/templates/default/system/list_pic.html",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/static/css/index.css",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/static/css/alll/list.css",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/theme/alll/list.html",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST_db/admin.py",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST/urls.py",
+		"/home/eastpiger/Archive/Web/UMUNC/umunc_iris/admin.py",
+		"/home/eastpiger/index.php",
+		"/home/eastpiger/untitled.cpp",
+		"/home/eastpiger/workspace/EasyPR_Android_back2/src/com/shanghaitech/HelloRecognize/MainActivity.java",
+		"/home/eastpiger/Archive/Web/LBlogger/LBlogger/themes/dashboard_post.html",
+		"/home/eastpiger/Archive/Web/LBlogger/LBlogger/static/js/dashboard_common.js",
+		"/home/eastpiger/workspace/EasyPR_Android/jni/src/core/ImageProc.cpp",
+		"/tmp/sort.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR/util/RGB2JPEG.py",
+		"/home/eastpiger/Archive/Code/EasyPR/src/core/plate_locate.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR/src/test/test.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR/src/include/feature.h",
+		"/home/eastpiger/Archive/Code/EasyPR/src/include/core_func.h",
+		"/home/eastpiger/Archive/Code/EasyPR/src/include/prep.h",
+		"/home/eastpiger/Archive/Code/EasyPR/src/include/plate_recognize.h",
+		"/home/eastpiger/Archive/Code/EasyPR/src/include/plate_locate.h",
+		"/home/eastpiger/Archive/Code/EasyPR/src/include/plate_judge.h",
+		"/home/eastpiger/Archive/Code/EasyPR/util/ADIRGB2JPEG.py",
+		"/home/eastpiger/Archive/Code/EasyPR/src/core/debug.c",
+		"/home/eastpiger/Archive/Code/EasyPR/src/core/pr.c",
+		"/home/eastpiger/Archive/Code/EasyPR/DEBUG/000_Init.out",
+		"/home/eastpiger/Archive/Code/EasyPR/src/main.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR/src/include/plate_detect.h",
+		"/home/eastpiger/Archive/Code/EasyPR/src/core/plate_detect.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR/src/core/plate_judge.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR/src/core/plate_recognize.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR/src/core/plate.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR/src/include/plate.h",
+		"/home/eastpiger/Archive/Code/EasyPR/src/core/core_func.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR/src/include/CParser.h",
+		"/home/eastpiger/Archive/Pkg/superobjectv1.2.4/superxmlparser.pas",
+		"/home/eastpiger/Archive/Pkg/lkJSON-1.07/sample2.dpr",
+		"/home/eastpiger/Archive/Pkg/lkJSON-1.07/sample1.dpr",
+		"/home/eastpiger/Archive/Web/LBlogger/LBlogger/LBlogger/views.py",
+		"/home/eastpiger/Archive/Web/LBlogger/LBlogger/LBlogger_db/models.py",
+		"/home/eastpiger/Archive/Pkg/superobjectv1.2.4/readme.html",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST_dashboard/views.py",
+		"/home/eastpiger/.lazarus/anchordocklayout.xml",
+		"/home/eastpiger/workspace/EasyPR_Android/src/com/shanghaitech/HelloRecognize/SerialConsoleActivity.java",
+		"/home/eastpiger/Archive/Web/UMUNC/umunc_iris/models.py",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/theme/dashboard/dashboard.html",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST/settings.py",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/theme/dashboard.html",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/static/css/common.css",
+		"/home/eastpiger/Archive/Web/shanghaitech_SIST/static/css/dashboard/common.css",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/chars_identify.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/chars_recognise.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/chars_segment.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/core_func.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/feature.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/features.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/ImageProc.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/plate.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/plate_detect.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/plate_judge.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/plate_locate.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/core/plate_recognize.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/chars_identify.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/chars_recognise.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/chars_segment.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/com_example_carplate_CarPlateDetection.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/core_func.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/CParser.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/feature.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/features.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/plate.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/plate_detect.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/plate_judge.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/plate_locate.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/plate_recognize.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/prep.h",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/include/util.h",
+		"/home/eastpiger/Documents/upload/css/common.css",
+		"/home/eastpiger/Documents/upload/default.html",
+		"/home/eastpiger/a",
+		"/home/eastpiger/untitled.py",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/src/com/example/carplate/CarPlateDetection.java",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/src/com/example/carplate/MainActivity.java",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/project.properties",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/bin/R.txt",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/Application.mk",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/Android.mk",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/test/test.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/test/accuracy_test.cpp",
+		"/home/eastpiger/Archive/Code/EasyPR_Android/jni/src/main.cpp",
+		"/var/tmp/kdecache-eastpiger/krun/7906_0_default.html",
+		"/home/eastpiger/Documents/upload/admin/index.php",
+		"/home/eastpiger/Documents/upload/admin/crond.php",
+		"/home/eastpiger/Documents/upload/static/index.html",
+		"/home/eastpiger/Archive/Code/EasyPR/RECG/data.input",
+		"/home/eastpiger/Documents/upload/install/installing.php"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"/home/eastpiger/Archive/Code/EasyPR/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"<td>$",
+			"../images",
+			"images",
+			"simplejson",
+			"img/",
+			"$ ",
+			"()]",
+			"1",
+			"m_MorphSizeWidth",
+			"m_plateLocate",
+			"setMorphSizeWidth",
+			");\n",
+			"plateLocate",
+			"MORPH_ELLIPSE",
+			"20",
+			"getStructuringElement",
+			"platelocate(",
+			"getStructuringElement",
+			"cvtcolor(",
+			"platelocate(",
+			"morph",
+			"25",
+			"copyTo",
+			"sobelOper",
+			"Gauss",
+			">>",
+			"R",
+			"call_hook",
+			"issues/:id",
+			"cars",
+			"users_for_new_watcher",
+			"link_to",
+			"splitcontent",
+			"/new",
+			"/issues/new",
+			"def new",
+			"new",
+			"parse",
+			"<>",
+			"print",
+			"print(",
+			"print ",
+			"\n",
+			"	",
+			"RoundEx",
+			"\n",
+			"\"span",
+			"'ID'",
+			"\n",
+			"mazy",
+			"row",
+			"\n",
+			"1",
+			"@shanghaitech.edu.cn",
+			"i",
+			"nan",
+			"}\n",
+			"cvLoadImage",
+			"_IplImage",
+			"IplImage",
+			"cvmat",
+			"mat",
+			"read",
+			"IplImage",
+			"cvCreateImage",
+			"upload_mpc",
+			"form",
+			"led",
+			"controll_led",
+			"superuser",
+			"TEMPLATE_CONTEXT_PROCESSORS",
+			"int",
+			"data['pos'] = forward(data['pos'])",
+			"data['pos'] = turnright(data['pos'])",
+			"data['pos'] = turnleft(data['pos'])",
+			"turn_right",
+			"next_pos",
+			"turn_left",
+			"check_right",
+			"check_front",
+			"check(data['pos'])",
+			"data['map']",
+			"point['d']",
+			"point['y']",
+			"point['x']",
+			", ",
+			"callbackCones",
+			"plate_recognize",
+			"plateDetectDeep",
+			"test_chars_segment",
+			"matVec",
+			"plateLocate",
+			"test_plate_locate",
+			"max",
+			":\n",
+			":=",
+			"+ 1 1",
+			">\n",
+			"module_transformation",
+			" =",
+			"y",
+			"hydro",
+			"1",
+			"add_translate",
+			"  ",
+			"DDDDDD",
+			"183",
+			"183 -312",
+			"rect 183 -312",
+			"name",
+			"//",
+			"a href=\"",
+			"valign=\"top\"",
+			"}}\n",
+			"20px",
+			"});",
+			"Messenger",
+			"\n",
+			")\n",
+			" ",
+			"\")&&$(\"#",
+			"60*15",
+			"time",
+			"()\n",
+			"t",
+			"refresh_meeting",
+			"def"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../image",
+			"> >",
+			"B",
+			"G",
+			"!=",
+			"print(",
+			"\"col-md-",
+			"`ID`",
+			"\"ID\"",
+			"\"id\"",
+			"row-fluid",
+			"is_superuser",
+			"forward()",
+			"o=(o + 3) % 4",
+			"o=(o + 5) % 4",
+			"turnright",
+			"forward",
+			"turnleft",
+			"wallonright",
+			"wallinfront",
+			"(x < 0) or (y < 0) or (y >= len(map)) or (x >= len(map[0]))",
+			"map",
+			"o",
+			"y",
+			"x",
+			",",
+			"indigo",
+			"",
+			"None",
+			"insert into `auth_user` (`id`,`password`,`last_login`,`is_superuser`,`username`,`first_name`,`last_name`,`email`,`is_staff`,`is_active`,`date_joined`)",
+			" ",
+			"'",
+			"`",
+			"post(\"",
+			"",
+			"refresh_communiaction(",
+			"refresh_communiaction",
+			"2015-02-12 10:46:55",
+			"请各频道代表记得查看本国家/地区/组织是否收到meeting申请。",
+			"user",
+			"	",
+			"428BCA",
+			"BooleanField(default=False,",
+			"umunc_cheetah"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/theme/dashboard/root.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/eastpiger/Archive/Web/UMUNC/umunc_cheetah/view.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3550,
+								3550
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 886.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST_db/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/shanghaitech_SIST_dashboard/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/eastpiger/Archive/Document/Club/151018/source/荣宇阳/ye.pas",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								952,
+								952
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Pascal/Pascal.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/static/css/dataTables.bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9023,
+								9023
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4122.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/eastpiger/Archive/Web/shanghaitech_SIST/static/js/dashboard/nodes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "urls.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 438.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Archive/Code/EasyPR/untitled.sublime-project"
+			]
+		],
+		"width": 333.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

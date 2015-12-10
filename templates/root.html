@@ -1,0 +1,69 @@
+{% load staticfiles %}
+{% load cms_tags sekizai_tags menu_tags %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, minimum-scale=1, user-scalable=no, target-densitydpi=160dpi" />
+		<meta name="keywords" content="上海科技大学,信息科学与技术学院,ShanghaiTech University,School of Information Science and Technology,SIST,Shanghai,China,Chinese Academic of Sciences,Shanghai Pudong Science and Technology Park,Zhangjiang's high-tech industrial development zone,Shanghai Advanced Research Institute,site map,news,events,schools,information,web site,campus,library,admission,research,employment,university">
+		<meta name="description" content="Welcome to ShanghaiTech University The School of Information Science and Technology (SIST) home page, Students, Faculty, Staff, Partners, and the general public can use this site to find information on campus news, services, events, and resources posted on the campus web">
+
+		<title>{% page_attribute "page_title" %} - School of Information Science and Technology</title>
+		<link href="{% static "css/bootstrap.css" %}" rel="stylesheet">
+		<link href="{% static "css/common.css" %}" rel="stylesheet">
+		{% block root_css %}{% endblock %}
+
+		{% render_block "css" %}
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+				<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+				<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		{% cms_toolbar %}
+		<div class="container-fluid" id="top">
+			<div class="row-fluid">
+				<div class="col-md-12">
+					<div class="row-fluid">
+						<div class="col-md-12" id="top-menu">
+							<ul class="list-inline pull-right">
+								{% show_menu 0 0 100 100 "menu/root_menu.html" %}
+							</ul>
+						</div>
+						<div class="col-md-12" id="top-logo">
+							<h1 id="university">ShanghaiTech University</h1>
+							<h1 id="school">School of Information Sciencce and Technology</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{% block root_body %}{% endblock %}
+
+		<div class="container default-hr">
+			<hr>
+		</div>
+		<div class="container" id="footer">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>
+						<small>ShanghaiTech University</small>
+						<br>
+						School of Information Science and Technology
+						<span>Copyright © 2015 ShanghaiTech University · All rights reserved</span>
+					</h2>
+				</div>
+			</div>
+		</div>
+		<script src="{% static "js/jquery-2.1.4.min.js" %}"></script>
+		<script src="{% static "js/bootstrap.min.js" %}"></script>
+		<script src="{% static "js/common.js" %}"></script>
+		{% block root_js %}{% endblock %}
+		{% render_block "js" %}
+	</body>
+</html>

@@ -1,0 +1,66 @@
+/*
+* @Author: eastpiger
+* @Date:   2015-11-05 15:58:40
+* @Last Modified by:   eastpiger
+* @Last Modified time: 2015-11-07 05:44:24
+*/
+*{
+	font-weight: 200;
+}
+body{
+	background: #FAFAFA url("/static/image/bg_mark.jpg") top center no-repeat;
+	background-size: contain;
+}
+#top{
+	border-top: rgb(0, 64, 152) 6px solid;
+	height: 140px;
+	background: url("/static/image/bg_up.png") center center no-repeat,
+		url("/static/image/bg.jpg") center center no-repeat;
+	background-size: cover;
+}
+#top-menu{
+	margin-top: 10px;
+}
+#top-menu a{
+	color: #DDDDDD;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+}
+#top-logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 3px 5px rgb(0, 0, 0);
+    position: absolute;
+    top: 30px;
+}
+#top-logo h1{
+	color: #DDDDDD;
+}
+#top-logo #university{
+	font-size: 20px;
+	line-height: 0px;
+}
+#footer{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+#footer h2{
+	font-weight: lighter;
+	vertical-align: bottom;
+	width: 100%;
+}
+#footer h2 small{
+	font-weight: normal;
+}
+#footer h2 span{
+	font-weight: lighter;
+	font-size:14px;
+}
+.default-hr{
+
+}
+.default-hr hr{
+	margin: 0px;
+	border-color: #E0E9FF;
+	color: #E0E9FF;
+}
