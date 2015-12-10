@@ -108,6 +108,7 @@ TEMPLATES = [
 ]
 
 CMS_TEMPLATES = (
+    ('home.html', 'Home'),
     ('template_1.html', 'Template One'),
     ('template_2.html', 'Template Two'),
     ('index.html', 'Index'),
