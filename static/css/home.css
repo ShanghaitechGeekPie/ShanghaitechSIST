@@ -2,7 +2,7 @@
 * @Author: eastpiger
 * @Date:   2015-11-05 15:58:41
 * @Last Modified by:   eastpiger
-* @Last Modified time: 2015-11-07 05:53:06
+* @Last Modified time: 2015-12-11 03:02:56
 */
 body{
 	background-position: 0px 450px;
@@ -20,53 +20,53 @@ body{
 	font-size: 36px;
 	line-height: 1.1;
 }
-#default-introducation{
-	padding: 50px 10px;
+#home-introducation{
+	padding: 40px 10px;
 }
-#default-introducation p{
+#home-introducation p{
 	color: #777777;
 	font-size: 16px;
 	line-height: 24px;
 }
-#default-context{
-	margin: 60px auto;
+#home-context{
+	margin: 40px auto;
 }
-.default_news_block{
+.home-news-block{
 	padding: 5px 10px 10px 10px;
 	border-bottom: #EEEEEE solid 1px;
 }
-.default_news_block:hover{
+.home-news-block:hover{
 	background-color: #EEEEEE;
 	cursor: pointer;
 }
-.default_news_block:hover h3{
+.home-news-block h3{
+	font-weight: 300;
+}
+.home-news-block:hover h3{
 	color: #004098;
 }
-.default_news_block:nth-last-child(2){
+.home-news-block:nth-last-child(2){
 	border-bottom: none;
 }
-#default_news_more a{
-	color: #777777;
-}
-.default_events_block{
+.home-events-block{
 	padding: 20px;
 }
-.default_events_block:hover{
+.home-events-block:hover{
 	cursor: pointer;
 }
-.default_events_block:hover .default_events_title{
+.home-events-block:hover .home-events-title{
 	background-color: #EEEEEE;
 }
-.default_events_block:hover .default_events_time,
-.default_events_block:hover .default_events_time span{
+.home-events-block:hover .home-events-time,
+.home-events-block:hover .home-events-time span{
 	color: #004098;
 	border-color: #004098;
 }
-.default_events_time > span{
+.home-events-time > span{
 	font-size: 16px;
 	font-weight: bold;
 }
-.default_events_time > span > span{
+.home-events-time > span > span{
 	margin-top: 0px;
 	border-top: 1px solid #777777;
 	color: #777777

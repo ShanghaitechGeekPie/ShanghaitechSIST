@@ -1,5 +1,4 @@
 {% extends "root.html" %}
-{% load staticfiles %}
 {% load cms_tags sekizai_tags menu_tags %}
 
 {% block root_css %}
@@ -12,7 +11,9 @@
 					<p>{% block root_with_right_menu_body %}{% endblock %}</p>
 				</div>
 				<div class="col-md-4">
-					<p>{% show_menu 0 0 100 100 "menu/root_with_right_menu_menu.html" %}</p>
+					{% block root_with_right_menu_menu %}
+						<p>{% show_menu 0 0 100 100 "menu/root_with_right_menu_menu.html" %}</p>
+					{% endblock %}
 				</div>
 			</div>
 		</div>

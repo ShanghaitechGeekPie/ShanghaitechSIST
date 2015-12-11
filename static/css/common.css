@@ -2,7 +2,7 @@
 * @Author: eastpiger
 * @Date:   2015-11-05 15:58:40
 * @Last Modified by:   eastpiger
-* @Last Modified time: 2015-11-07 05:44:24
+* @Last Modified time: 2015-12-11 02:57:03
 */
 *{
 	font-weight: 200;
@@ -10,6 +10,19 @@
 body{
 	background: #FAFAFA url("/static/image/bg_mark.jpg") top center no-repeat;
 	background-size: contain;
+}
+.subtitle a{
+	font-size: 30px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 3px;
+	color: black;
+	text-decoration: none;
+}
+.subtitle a small{
+	color: #777777;
+	font-size: 14px;
+	margin-left: 20px;
 }
 #top{
 	border-top: rgb(0, 64, 152) 6px solid;
@@ -55,9 +68,6 @@ body{
 #footer h2 span{
 	font-weight: lighter;
 	font-size:14px;
-}
-.default-hr{
-
 }
 .default-hr hr{
 	margin: 0px;

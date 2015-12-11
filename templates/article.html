@@ -1,16 +1,18 @@
-{% extends "root.html" %}
+{% extends "root_with_right_menu.html" %}
 {% load staticfiles %}
 {% load cms_tags sekizai_tags menu_tags %}
 
 {% block root_css %}
+	<link href="{% static "css/article.css" %}" rel="stylesheet">
 {% endblock %}
 
-{% block root_body %}
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>{% placeholder 'article_content' %}</p>
-				</div>
-			</div>
+{% block root_with_right_menu_body %}
+	<div class="row">
+		<div class="col-md-12" id="article-title">
+			<h2>{% placeholder 'article_title' %}</h2>
 		</div>
+		<div class="col-md-12" id="article-content">
+			{% placeholder 'article_content' %}
+		</div>
+	</div>
 {% endblock %}
