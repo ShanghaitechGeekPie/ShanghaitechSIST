@@ -1,0 +1,19 @@
+{% load menu_tags %}
+
+{% for child in children %}
+<div class="col-md-12 home-events-block">
+	<a href="{{ child.attr.redirect_url|default:child.get_absolute_url }}">
+		<div class="row">
+				<div class="col-md-2 text-right home-events-time">
+					<span>
+						May<br>
+						<span>15th</span>
+					</span>
+				</div>
+				<div class="col-md-10 home-events-title">
+					{{ child.get_menu_title }}
+				</div>
+		</div>
+	</a>
+</div>
+{% endfor %}

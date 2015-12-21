@@ -47,7 +47,10 @@ INSTALLED_APPS = (
     'sekizai',  # for javascript and css management
     'djangocms_admin_style',  # for the admin skin. You **must** add 'djangocms_admin_style' in the list **before** 'django.contrib.admin'.
     'djangocms_text_ckeditor',
+    'djangocms_picture',
+    'djangocms_file',
     #'polls',
+    'shanghaitech_SIST',
 
     'django.contrib.admin',
 )
@@ -110,10 +113,10 @@ TEMPLATES = [
 CMS_TEMPLATES = (
     ('home.html', 'Home'),
     ('article.html', 'Article'),
-    ('template_1.html', 'Template One'),
-    ('template_2.html', 'Template Two'),
-    ('index.html', 'Index'),
-    ('list.html', 'List'),
+    ('template_1.html', '【测试】Template One'),
+    ('template_2.html', '【测试】Template Two'),
+    ('index.html', '【测试】Index'),
+    ('list.html', '【测试】List'),
 )
 
 MIGRATION_MODULES = {
@@ -166,15 +169,29 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-#STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 STATIC_URL = "/static/"
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "static_dev"),
 )
+
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "/media/"
 
-
+CMS_PLACEHOLDER_CONF = {
+    'article.html article_content': {
+        'name' : 'article_content',
+        'plugins': ['TextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'TextPlugin',
+                'values':{
+                    'body':'<p>Enter your Content</p>'
+                }
+            },
+        ]
+    }
+}
 

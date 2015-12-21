@@ -1,0 +1,108 @@
+/*
+* @Author: eastpiger
+* @Date:   2015-11-05 15:58:40
+* @Last Modified by:   eastpiger
+* @Last Modified time: 2015-12-11 21:27:01
+*/
+*{
+	font-weight: 200;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+body{
+	background: #FAFAFA url("/static/image/bg_mark.jpg") top center no-repeat;
+	background-size: contain;
+}
+.subtitle a{
+	font-size: 30px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 3px;
+	color: black;
+	text-decoration: none;
+}
+.subtitle a small{
+	color: #777777;
+	font-size: 14px;
+	margin-left: 20px;
+}
+#top{
+	border-top: rgb(0, 64, 152) 6px solid;
+	height: 140px;
+	background: url("/static/image/bg_up.png") center center no-repeat,
+		url("/static/image/bg.jpg") center center no-repeat;
+	background-size: cover;
+}
+#top-menu{
+	margin-top: 10px;
+}
+#top-menu a{
+	color: #DDDDDD;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+}
+#top-logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 3px 5px rgb(0, 0, 0);
+    position: absolute;
+    top: 30px;
+}
+#top-logo h1{
+	color: #DDDDDD;
+}
+#top-logo #university{
+	font-size: 20px;
+	line-height: 0px;
+}
+#footer{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+#footer h2{
+	font-weight: lighter;
+	vertical-align: bottom;
+	width: 100%;
+}
+#footer h2 small{
+	font-weight: normal;
+}
+#footer h2 span{
+	font-weight: lighter;
+	font-size:14px;
+}
+.default-hr hr{
+	margin: 0px;
+	border-color: #E0E9FF;
+	color: #E0E9FF;
+}
+
+#root-with-right-menu-menu > li{
+	margin-top: 40px;
+}
+#root-with-right-menu-menu > li a{
+	font-size: 30px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 3px;
+	color: black;
+	text-decoration: none;
+}
+#root-with-right-menu-menu > li > ul > li{
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+#root-with-right-menu-menu > li > ul > li a{
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 3px;
+	color: #333;
+	text-decoration: none;
+}

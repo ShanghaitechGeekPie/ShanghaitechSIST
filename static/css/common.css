@@ -2,14 +2,34 @@
 * @Author: eastpiger
 * @Date:   2015-11-05 15:58:40
 * @Last Modified by:   eastpiger
-* @Last Modified time: 2015-11-07 05:44:24
+* @Last Modified time: 2015-12-16 02:34:16
 */
 *{
 	font-weight: 200;
 }
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
 body{
 	background: #FAFAFA url("/static/image/bg_mark.jpg") top center no-repeat;
 	background-size: contain;
+}
+.subtitle a{
+	font-size: 30px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 3px;
+	color: black;
+	text-decoration: none;
+}
+.subtitle a small{
+	color: #777777;
+	font-size: 14px;
+	margin-left: 20px;
 }
 #top{
 	border-top: rgb(0, 64, 152) 6px solid;
@@ -56,11 +76,33 @@ body{
 	font-weight: lighter;
 	font-size:14px;
 }
-.default-hr{
-
-}
 .default-hr hr{
 	margin: 0px;
 	border-color: #E0E9FF;
 	color: #E0E9FF;
+}
+
+#root-with-right-menu-menu > li{
+	margin-top: 40px;
+}
+#root-with-right-menu-menu > li a{
+	font-size: 30px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 3px;
+	color: black;
+	text-decoration: none;
+}
+#root-with-right-menu-menu > li > ul > li{
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+#root-with-right-menu-menu > li > ul > li a{
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 3px;
+	color: #333;
+	text-decoration: none;
 }

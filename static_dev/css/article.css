@@ -1,0 +1,22 @@
+/*
+* @Author: eastpiger
+* @Date:   2015-11-05 15:58:41
+* @Last Modified by:   eastpiger
+* @Last Modified time: 2015-12-11 20:50:48
+*/
+#article{
+	margin-bottom: 60px;
+}
+#article-title h2{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-style: italic;
+}
+#article-content{
+	line-height: 2em;
+}
+#article-content p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}

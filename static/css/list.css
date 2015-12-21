@@ -1,0 +1,40 @@
+/*
+* @Author: eastpiger
+* @Date:   2015-11-05 15:58:41
+* @Last Modified by:   eastpiger
+* @Last Modified time: 2015-12-16 02:42:03
+*/
+#list{
+	margin-bottom: 60px;
+}
+#list-title h2{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-style: italic;
+}
+.list-block > a{
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.list-block > a:hover{
+	text-decoration: none;
+}
+.list-block{
+	padding: 5px 10px 10px 10px;
+	border-bottom: #EEEEEE solid 1px;
+}
+.list-block:hover{
+	background-color: #EEEEEE;
+	cursor: pointer;
+}
+.list-block h3{
+	font-weight: 300;
+}
+.list-block:hover h3{
+	color: #004098;
+}
+.list-block:nth-last-child(1){
+	border-bottom: none;
+}

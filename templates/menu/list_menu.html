@@ -1,0 +1,14 @@
+{% load menu_tags %}
+{% load templatetags %}
+{% load sist_tags %}
+
+
+{% for child in children %}
+<div class="col-md-12 list-block" >
+	<a href="{{ child.attr.redirect_url|default:child.get_absolute_url }}">
+		<h3>{{ child.get_menu_title }}</h3>
+		{% show_placeholder_as "article_content" child.id as article_content %}
+		<p>{{article_content | striptags | truncatechars:17}}</p>
+	</a>
+</div>
+{% endfor %}
