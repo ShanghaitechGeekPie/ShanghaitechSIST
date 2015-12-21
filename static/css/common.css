@@ -2,10 +2,11 @@
 * @Author: eastpiger
 * @Date:   2015-11-05 15:58:40
 * @Last Modified by:   eastpiger
-* @Last Modified time: 2015-12-16 02:34:16
+* @Last Modified time: 2015-12-22 04:17:43
 */
 *{
 	font-weight: 200;
+	font-family: "Lato", STHeiti, "Microsoft YaHei", Helvetica, Arial, sans-serif;
 }
 a{
 	text-decoration: none;
