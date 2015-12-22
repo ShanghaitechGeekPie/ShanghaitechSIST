@@ -41,10 +41,8 @@ class ShowPlaceholderByIdwithAS(ShowPlaceholderById):
 
         Gets the context and data to render.
         """
-        print(kwargs)
         value = super().render_tag(context, **kwargs)
         varname = kwargs.pop(self.varname_name)
-        print(varname)
         if varname:
             context[varname] = value
             return ''
