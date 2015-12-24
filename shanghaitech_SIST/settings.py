@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kak^%w2j_h4#gqydh#j469z)vpafa*%=)gii7m&ny4l+6l#w-0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["sist.geekpie.org"]
 
 SITE_ID = 1
 
@@ -49,7 +49,9 @@ INSTALLED_APPS = (
     'djangocms_text_ckeditor',
     'djangocms_picture',
     'djangocms_file',
-    #'polls',
+    'djangocms_timerange',
+    'djangocms_plaintext',
+    'gunicorn',
     'shanghaitech_SIST',
 
     'django.contrib.admin',
@@ -111,12 +113,13 @@ TEMPLATES = [
 ]
 
 CMS_TEMPLATES = (
-    ('home.html', 'Home'),
     ('article.html', 'Article'),
-    ('template_1.html', '【测试】Template One'),
-    ('template_2.html', '【测试】Template Two'),
-    ('index.html', '【测试】Index'),
-    ('list.html', '【测试】List'),
+    ('seminars.html', 'Seminars'),
+    ('list.html', 'List'),
+    ('list_news.html', 'News List'),
+    ('list_seminars.html', 'Seminars List'),
+    ('list_overview.html', 'Overview List'),
+    ('home.html', 'Home'),
 )
 
 MIGRATION_MODULES = {
@@ -175,14 +178,65 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static_dev"),
 )
 
-
-
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "/media/"
+
+# CKEditor Configuration
+
+TEXT_SAVE_IMAGE_FUNCTION = None
 
 CMS_PLACEHOLDER_CONF = {
     'article.html article_content': {
         'name' : 'article_content',
+        'plugins': ['TextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'TextPlugin',
+                'values':{
+                    'body':'<p>Enter your Content</p>'
+                }
+            },
+        ]
+    },
+    'seminars.html seminars_speaker': {
+        'name' : 'seminars_speaker',
+        'plugins': ['PlainTextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'PlainTextPlugin',
+                'values':{
+                    'body':'Enter your Name'
+                }
+            },
+        ]
+    },
+    'seminars.html seminars_timerange': {
+        'name' : 'seminars_timerange',
+        'plugins': ['TimeRangePlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'TimeRangePlugin',
+                'values':{
+                    'starttime':'2013-9-30 0:0:0',
+                    'endtime':'2013-9-30 0:0:0'
+                }
+            },
+        ]
+    },
+    'seminars.html seminars_location': {
+        'name' : 'seminars_location',
+        'plugins': ['PlainTextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'PlainTextPlugin',
+                'values':{
+                    'body':'Enter your Location'
+                }
+            },
+        ]
+    },
+    'seminars.html seminars_content': {
+        'name' : 'seminars_content',
         'plugins': ['TextPlugin'],
         'default_plugins':[
             {

@@ -11,6 +11,8 @@
 		<div class="col-md-12" id="list-title">
 			<h2>{% page_attribute "page_title" %}</h2>
 		</div>
+		{% block list_body %}
 		{% show_sub_menu 1 None 1 "menu/list_menu.html" %}
+		{% endblock %}
 	</div>
 {% endblock %}

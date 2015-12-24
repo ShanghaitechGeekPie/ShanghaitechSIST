@@ -2,8 +2,9 @@
 * @Author: eastpiger
 * @Date:   2015-11-05 15:58:40
 * @Last Modified by:   eastpiger
-* @Last Modified time: 2015-12-22 04:17:43
+* @Last Modified time: 2015-12-23 01:00:08
 */
+@import url(https://fonts.googleapis.com/css?family=Lato);
 *{
 	font-weight: 200;
 	font-family: "Lato", STHeiti, "Microsoft YaHei", Helvetica, Arial, sans-serif;
@@ -46,7 +47,6 @@ body{
 	color: #DDDDDD;
 	font-size: 18px;
 	font-weight: normal;
-	font-style: italic;
 }
 #top-logo{
     font-family: Georgia, 'Times New Roman', Times, serif;

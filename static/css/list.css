@@ -2,7 +2,7 @@
 * @Author: eastpiger
 * @Date:   2015-11-05 15:58:41
 * @Last Modified by:   eastpiger
-* @Last Modified time: 2015-12-16 02:42:03
+* @Last Modified time: 2015-12-24 20:05:09
 */
 #list{
 	margin-bottom: 60px;
@@ -22,19 +22,65 @@
 	text-decoration: none;
 }
 .list-block{
-	padding: 5px 10px 10px 10px;
+	padding: 10px;
 	border-bottom: #EEEEEE solid 1px;
 }
 .list-block:hover{
 	background-color: #EEEEEE;
 	cursor: pointer;
 }
-.list-block h3{
-	font-weight: 300;
+
+.list-block-news{
+	padding: 5px 10px 10px 10px;
+	border-bottom: #EEEEEE solid 1px;
 }
-.list-block:hover h3{
+.list-block-news:hover{
+	background-color: #EEEEEE;
+	cursor: pointer;
+}
+.list-block-news h4{
+	padding: 12px 0px;
+    font-size: 20px;
+}
+.list-block-news:hover h4{
 	color: #004098;
 }
-.list-block:nth-last-child(1){
+.list-block-news:nth-last-child(1){
 	border-bottom: none;
+}
+
+.list-block-seminars:hover .list-seminars-time,
+.list-block-seminars:hover .list-seminars-time span{
+	color: #004098;
+	border-color: #004098;
+}
+.list-seminars-time > span{
+	font-size: 16px;
+	font-weight: bold;
+}
+.list-seminars-time > span > span{
+	margin-top: 0px;
+	border-top: 1px solid #777777;
+	color: #777777;
+}
+.list-seminars-title-speaker{
+	color: #777777;
+}
+
+.list-block-overview{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.list-block-overview:hover{
+	background: transparent;
+}
+.list-block-overview:hover a{
+	text-decoration: underline;
+}
+.list-block-overview-inner{
+	border-bottom: none;
+	padding-left: 40px;
+}
+.list-block-overview-inner span{
+	font-size: 8px;
 }

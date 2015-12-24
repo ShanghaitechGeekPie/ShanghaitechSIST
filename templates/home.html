@@ -13,7 +13,7 @@
 					<p>{% static_placeholder 'school-introducation' %}</p>
 				</div>
 				<div class="col-md-12 subtitle text-right">
-					<a><small>More…</small></a>
+					<a href="{% page_url "about" %}"><small>More…</small></a>
 				</div>
 			</div>
 		</div>
@@ -25,17 +25,17 @@
 				<div class="col-md-7" id="home-news-list">
 					<div class="row">
 						<div class="col-md-12 subtitle">
-							<a>News<small>More…</small></a>
+							<a href="{% page_url "news" %}">{% page_attribute "page_title" "news" %}<small>More…</small></a>
 						</div>
-						{% show_menu_below_id 'news' 0 0 1 4 "menu/home_news_menu.html" %}
+						{% show_menu_below_id 'news' 0 0 0 0 "menu/home_news_menu.html" %}
 					</div>
 				</div>
-				<div class="col-md-5" id="home-events-list">
+				<div class="col-md-5" id="home-seminars-list">
 					<div class="row">
 						<div class="col-md-12 subtitle">
-							<a>Events<small>More…</small></a>
+							<a href="{% page_url "seminars" %}">{% page_attribute "page_title" "seminars" %}<small>More…</small></a>
 						</div>
-						{% show_menu_below_id 'events' 0 0 1 6 "menu/home_events_menu.html" %}
+						{% show_menu_below_id 'seminars' 0 0 1 6 "menu/home_seminars_menu.html" %}
 					</div>
 				</div>
 			</div>

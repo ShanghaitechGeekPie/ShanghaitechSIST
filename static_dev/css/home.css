@@ -2,7 +2,7 @@
 * @Author: eastpiger
 * @Date:   2015-11-05 15:58:41
 * @Last Modified by:   eastpiger
-* @Last Modified time: 2015-12-16 02:36:08
+* @Last Modified time: 2015-12-23 02:10:40
 */
 body{
 	background-position: 0px 450px;
@@ -31,15 +31,15 @@ body{
 #home-context{
 	margin: 40px auto;
 }
-.home-news-block > a,
-.home-events-block > a{
+.home-news-block  a,
+.home-seminars-block > a{
 	color: #333333;
 	margin: 0px;
 	padding: 0px;
 	display: block;
 }
 .home-news-block > a:hover,
-.home-events-block > a:hover{
+.home-seminars-block > a:hover{
 	text-decoration: none;
 }
 .home-news-block{
@@ -50,36 +50,39 @@ body{
 	background-color: #EEEEEE;
 	cursor: pointer;
 }
-.home-news-block h3{
-	font-weight: 300;
+.home-news-block h4{
+	padding: 12px 0px;
+    font-size: 20px;
 }
-.home-news-block:hover h3{
+.home-news-block:hover h4{
 	color: #004098;
 }
 .home-news-block:nth-last-child(1){
 	border-bottom: none;
 }
-.home-events-block{
+.home-seminars-block{
 	padding: 20px;
 }
-.home-events-block:hover{
+.home-seminars-block:hover{
 	cursor: pointer;
 	background-color: #EEEEEE;
 }
-.home-events-block:hover .home-events-time,
-.home-events-block:hover .home-events-time span{
+.home-seminars-block:hover .home-seminars-time,
+.home-seminars-block:hover .home-seminars-time span{
 	color: #004098;
 	border-color: #004098;
 }
-.home-events-time > span{
+.home-seminars-time > span{
 	font-size: 16px;
 	font-weight: bold;
 }
-.home-events-time > span > span{
+.home-seminars-time > span > span{
 	margin-top: 0px;
 	border-top: 1px solid #777777;
-	color: #777777
+	color: #777777;
 }
-
+.home-seminars-title-speaker{
+	color: #777777;
+}
 
 
