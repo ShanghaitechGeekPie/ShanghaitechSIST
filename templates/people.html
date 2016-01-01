@@ -1,0 +1,26 @@
+{% extends "article.html" %}
+{% load staticfiles %}
+{% load cms_tags sekizai_tags menu_tags %}
+
+{% block root_css %}
+	{{ block.super }}
+	<link href="{% static "css/people.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block article_content %}
+	<div class="row" id="people">
+		<div class="col-md-3">
+			{% placeholder 'people_photo' %}
+		</div>
+		<div class="col-md-9">
+			<p><strong>Name: </strong>{% placeholder 'people_name' %}</p>
+			<p><strong>Title: </strong>{% placeholder 'people_title' %}</p>
+			<p><strong>Tel: </strong>{% placeholder 'people_tel' %}</p>
+			<p><strong>Email: </strong>{% placeholder 'people_email' %}</p>
+			<p><strong>Office: </strong>{% placeholder 'people_office' %}</p>
+			<p><strong>Homepage: </strong>{% placeholder 'people_homepage' %}</p>
+		</div>
+	</div>
+	<hr/>
+	{% placeholder 'people_content' %}
+{% endblock %}

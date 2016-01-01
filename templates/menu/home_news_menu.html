@@ -1,10 +1,10 @@
 {% load menu_tags %}
 {% load sist_tags %}
 
-{% for child in children|slice:"-4:"|slice:"::-1" %}
+{% for child in children|slice:"-6:"|slice:"::-1" %}
 {% show_placeholder_as "article_content" child.id as article_content %}
 <div class="col-md-12 home-news-block clickbox" href="{{ child.attr.redirect_url|default:child.get_absolute_url }}">
 	<h4>{{ child.get_menu_title }}</h4>
-	<p>{{ article_content | striptags | truncatechars:400 }}</p>
+	<p>{{ article_content | striptags | truncatechars:300 }}</p>
 </div>
 {% endfor %}

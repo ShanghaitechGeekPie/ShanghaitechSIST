@@ -1,1 +1,1215 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ke",
+				"keypress	.keypress()"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"border-bottom-",
+				"border-bottom-right-radius"
+			],
+			[
+				"border",
+				"border-bottom-width"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border-top"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"activi",
+				"activities"
+			],
+			[
+				"da",
+				"datetime"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"sc",
+				"schedule"
+			],
+			[
+				"shc",
+				"schedule"
+			],
+			[
+				"min",
+				"minute"
+			],
+			[
+				"day",
+				"day_of_week"
+			],
+			[
+				"to",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"Get",
+				"GetChildKeyNodes"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"ur",
+				"url_point"
+			],
+			[
+				"for",
+				"ForeignKey"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"pl",
+				"plateVec"
+			],
+			[
+				"plateVec",
+				"plateVecSplit"
+			],
+			[
+				"pla",
+				"plateVec"
+			],
+			[
+				"b",
+				"beginend	$1.begin(), $1.end()"
+			],
+			[
+				"d",
+				"do	Do While Loop"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"ro",
+				"route"
+			],
+			[
+				"suc",
+				"success"
+			],
+			[
+				"pac",
+				"packets"
+			],
+			[
+				"pr",
+				"processtime"
+			],
+			[
+				"c",
+				"check"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"coo",
+				"cookie_code"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"num",
+				"num"
+			],
+			[
+				"minn",
+				"minn2"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"bum",
+				"bumpers"
+			],
+			[
+				"sens",
+				"sensorState"
+			],
+			[
+				"tru",
+				"turnleft"
+			],
+			[
+				"exc",
+				"except"
+			],
+			[
+				"sen",
+				"SensorState"
+			],
+			[
+				"ha",
+				"hash"
+			],
+			[
+				"mid",
+				"midpoint"
+			],
+			[
+				"poi",
+				"point"
+			],
+			[
+				"poin",
+				"pointhash"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"ge",
+				"geom_mid"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"gem",
+				"geom_dist"
+			],
+			[
+				"Blu",
+				"BLUE_CONE"
+			],
+			[
+				"is_s",
+				"is_superuser"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"ass",
+				"assignment"
+			],
+			[
+				"contr",
+				"control_for"
+			],
+			[
+				"eleme",
+				"elements"
+			],
+			[
+				"ele",
+				"elements"
+			],
+			[
+				"all_",
+				"all_blocks"
+			],
+			[
+				"line",
+				"linewidth"
+			],
+			[
+				"tra",
+				"transformation"
+			],
+			[
+				"ne",
+				"next_pos_1"
+			],
+			[
+				"ste",
+				"step2"
+			],
+			[
+				"nex",
+				"next_pos"
+			],
+			[
+				"rand",
+				"randoms"
+			],
+			[
+				"ra",
+				"randoms"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"all",
+				"all_line"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"t",
+				"thead	Tag"
+			],
+			[
+				"messa",
+				"message"
+			],
+			[
+				"heart",
+				"heartbeat_command"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"boe",
+				"border-bottom"
+			],
+			[
+				"troo",
+				"troom_a"
+			],
+			[
+				"vt",
+				"vtime_check"
+			],
+			[
+				"respo",
+				"response_rooms_a"
+			],
+			[
+				"Check",
+				"Check_T"
+			],
+			[
+				"From",
+				"FromC"
+			],
+			[
+				"meeti",
+				"meeting_refresh"
+			],
+			[
+				"C",
+				"Check_F"
+			],
+			[
+				"Che",
+				"Check_T"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"管理员",
+				"管理员已开启禁言"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/people.html",
+			"settings":
+			{
+				"buffer_size": 847,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "pyt",
+		"selected_items":
+		[
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mard",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"m",
+				"Markmon launch"
+			],
+			[
+				"mar",
+				"Markmon launch"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"ru",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pasca",
+				"Set Syntax: Pascal"
+			],
+			[
+				"wod",
+				"Word Wrap: Toggle"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"PYTHON",
+				"Set Syntax: Python"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pyto",
+				"Set Syntax: Python"
+			],
+			[
+				"jaca",
+				"Set Syntax: JavaScript (Rails)"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 118.0,
+		"history":
+		[
+			"run /tmp/postfix-1.py",
+			"/tmp/postfix-1.py",
+			"ls",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/eastpiger/Web/ShanghaitechSIST",
+		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST",
+		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST/templatetags",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/admin",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu"
+	],
+	"file_history":
+	[
+		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST/settings.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/list_menu.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/home_seminars_menu.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/home_news_menu.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST/templatetags/sist_tags.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/list_overview.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/list_overview_inner_menu.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/list_overview_menu.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/static_dev/css/list.css",
+		"/Users/eastpiger/Web/ShanghaitechSIST/static_dev/cms/js/dist/bundle.admin.changeform.min.js",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/home_events_menu.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/static_dev/js/common.js",
+		"/Users/eastpiger/Web/ShanghaitechSIST/db.sqlite3",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/list_news_menu.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/list_seminars_menu.html",
+		"/Users/eastpiger/Downloads/pinyin-2.6.1/bin/pinyin",
+		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST/templatetags/__init__.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST/__init__.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST/templatetags/templatetags.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templatetags/templatetags.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/static/css/common.css",
+		"/Users/eastpiger/Downloads/ckeditor 3/config.js",
+		"/Users/eastpiger/Downloads/ckeditor 3/styles.js",
+		"/Users/eastpiger/Web/ShanghaitechSIST/static/djangocms_text_ckeditor/js/cms.ckeditor.js",
+		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST/urls.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/root.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/static/css/home.css",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/index_news_menu.html",
+		"/Users/eastpiger/Downloads/ckeditor 3/ckeditor.js",
+		"/Users/eastpiger/Downloads/ckeditor 3/README.md",
+		"/Users/eastpiger/Web/ShanghaitechSIST/static/djangocms_text_ckeditor/ckeditor/ckeditor.js",
+		"/Users/eastpiger/Web/ShanghaitechSIST/static/djangocms_text_ckeditor/ckeditor/styles.js",
+		"/Users/eastpiger/Web/ShanghaitechSIST/static/djangocms_text_ckeditor/ckeditor/README.md",
+		"/Users/eastpiger/Web/geekpie/geekpie/settings.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/testss/cms_wizards.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/testss/admin.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/testss/cms_toolbars.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/testss/forms.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/testss/models.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/forms.py",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/language_chooser.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/root_menu.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu/root_with_right_menu_menu.html",
+		"/Users/eastpiger/Web/ShanghaitechSIST/templates/root_with_right_menu.html",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/view_main.py",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/static/js/page_guest_check.js",
+		"/Users/eastpiger/Web/shanghaitech_SIST/shanghaitech_SIST/settings.py",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/django.wsgi",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/part_common.py",
+		"/Users/eastpiger/.ssh/known_hosts",
+		"/Users/eastpiger/Desktop/config.ini",
+		"/Users/eastpiger/Web/geekpie/templates/plugins/TeamItemPlugin.html",
+		"/Users/eastpiger/Web/geekpieo/default.html",
+		"/Users/eastpiger/Web/geekpie/templates/plugins/ActivityItemPlugin.html",
+		"/Users/eastpiger/Web/geekpie/plugin_team_item/models.py",
+		"/Users/eastpiger/Web/geekpie/plugin_team_item/cms_plugins.py",
+		"/Users/eastpiger/Web/geekpie/templates/teams.html",
+		"/Users/eastpiger/Web/geekpie/geekpie/urls.py",
+		"/Users/eastpiger/Web/geekpie/geekpie/views.py",
+		"/Users/eastpiger/Web/geekpie/templates/activities.html",
+		"/Users/eastpiger/Web/geekpie/templates/activities/techoverflow.html",
+		"/Users/eastpiger/Code/Mirrors-AutoSync/Mirrors-AutoSync.py",
+		"/Users/eastpiger/Web/geekpie/static_dev/css/common.css",
+		"/Users/eastpiger/Web/geekpie/templates/overview.html",
+		"/Users/eastpiger/Web/geekpie/static_dev/css/activities.css",
+		"/Users/eastpiger/Web/geekpie/static_dev/css/activities/techoverflow.css",
+		"/Users/eastpiger/Web/geekpie/plugin_activity_item/models.py",
+		"/Users/eastpiger/Web/geekpie/plugin_activity_item/cms_plugins.py",
+		"/Users/eastpiger/Web/UMUNC/templates/umunc_cheetah/datacontrol_communication.html",
+		"/Users/eastpiger/Documents/Club/151018/source/test/test.pas",
+		"/Users/eastpiger/Documents/Club/151018/solution/gfw.pas",
+		"/Users/eastpiger/Web/geekpie/geekpie/models.py",
+		"/Users/eastpiger/Web/geekpie/static_dev/css/acticities/techoverflow.css",
+		"/Users/eastpiger/Web/geekpie/templates/root.html",
+		"/Users/eastpiger/Web/geekpie/plugin_activities_item/models.py",
+		"/Users/eastpiger/Web/geekpie/plugin_activities_item/cms_plugins.py",
+		"/Users/eastpiger/Web/geekpie/plugin_project_item/cms_plugins.py",
+		"/Users/eastpiger/Web/geekpie/plugin_project_item/models.py",
+		"/Users/eastpiger/Web/geekpie/plugin_projects_item/cms_plugins.py",
+		"/Users/eastpiger/Web/geekpie/static_dev/css/projects.css",
+		"/Users/eastpiger/Web/geekpie/templates/projects.html",
+		"/Users/eastpiger/Web/geekpie/static_dev/css/teams.css",
+		"/Users/eastpiger/Web/geekpie/plugin_projects_item/models.py",
+		"/Users/eastpiger/Web/geekpie/templates/plugins/ProjectItemPlugin.html",
+		"/Users/eastpiger/Web/geekpie/helloplugin/models.py",
+		"/Users/eastpiger/Web/geekpie/templates/index.html",
+		"/Users/eastpiger/Web/shanghaitech_SIST/static/css/default.css",
+		"/Users/eastpiger/Web/geekpie/templates/hello_plugin.html",
+		"/Users/eastpiger/Web/geekpie/helloplugin/cms_plugins.py",
+		"/Users/eastpiger/Web/geekpie/templates/menu/root_menu.html",
+		"/Users/eastpiger/Web/shanghaitech_SIST/static/css/common.css",
+		"/Users/eastpiger/Web/geekpie/static/css/overview.css",
+		"/Users/eastpiger/Web/geekpie/static/css/common.css",
+		"/Users/eastpiger/Web/shanghaitech_SIST/templates/root.html",
+		"/Users/eastpiger/Web/shanghaitech_SIST/templates/index.html",
+		"/Users/eastpiger/Web/geekpie/manage.py",
+		"/Users/eastpiger/Web/geekpie/geekpie/wsgi.py",
+		"/Users/eastpiger/Web/geekpie/shanghaitech_SIST/urls.py",
+		"/Users/eastpiger/Web/geekpie/shanghaitech_SIST/settings.py",
+		"/Users/eastpiger/Web/shanghaitech_SIST/templates/menu/root_menu.html",
+		"/Users/eastpiger/Web/shanghaitech_SIST/templates/list.html",
+		"/Users/eastpiger/Web/shanghaitech_SIST/templates/base.html",
+		"/Users/eastpiger/Web/shanghaitech_SIST/templates/template_2.html",
+		"/Users/eastpiger/a.cpp",
+		"/Users/eastpiger/Web/shanghaitech_SIST/shanghaitech_SIST/urls.py",
+		"/Users/eastpiger/Web/OneMoreFace/OneMoreFace/OneMoreFace/settings.py",
+		"/Users/eastpiger/Web/shanghaitech_SIST/bkup/shanghaitech_SIST/settings.py",
+		"/Users/eastpiger/Downloads/angler-mdb08m/flash-all.sh",
+		"/Users/eastpiger/Web/shanghaitechmenu/menu/menu/urls.py",
+		"/Users/eastpiger/Web/OneMoreFace/OneMoreFace/OneMoreFace/view.py",
+		"/Users/eastpiger/Web/shanghaitechmenu/menu/menu/theme/live.html",
+		"/Users/eastpiger/Web/geekpie/vot.html",
+		"/Users/eastpiger/Web/shanghaitechmenu/menu/menu/view.py",
+		"/Users/eastpiger/Web/shanghaitechmenu/menu/menu/urls.pyc",
+		"/Users/eastpiger/Web/shanghaitech_SIST/theme/index.html",
+		"/Users/eastpiger/Web/shanghaitech_SIST/theme/root.html",
+		"/Users/eastpiger/Web/shanghaitech_SIST/theme/root copy.html",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade_db/models.py",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/theme/guest_check.html",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/theme/viewlist.html",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/urls.py",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/theme/default.html",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/theme/error.html",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/urls.pyc",
+		"/Users/eastpiger/Web/shanghaitechgrade/grade/grade/view_main.pyc",
+		"/Users/eastpiger/Documents/Club/151018/151018.cdf",
+		"/Users/eastpiger/Documents/Club/151018/data/sign/sign5.out",
+		"/Users/eastpiger/Documents/Club/151018/source/test/sign.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"/home/eastpiger/Archive/Code/EasyPR/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getFullChars",
+			"classytags",
+			"show_placeholder",
+			")\n",
+			"col-md-3 text-right home-events-time",
+			"default-",
+			"_",
+			"presented",
+			"_",
+			"dol",
+			"part_common",
+			"send",
+			"mail",
+			"10.11.16.28",
+			"geekpie",
+			"	1\n",
+			"	1",
+			"…",
+			"activity",
+			"Overview",
+			">,",
+			"rol",
+			"上海科技大学学生Geek",
+			">> ",
+			"School",
+			"sou",
+			"south",
+			"\" %}",
+			"{% static \"",
+			"h2",
+			"default_news_block",
+			"Http404",
+			"test",
+			"do",
+			"'",
+			"<td>$",
+			"../images",
+			"images",
+			"simplejson",
+			"img/",
+			"$ ",
+			"()]",
+			"1",
+			"m_MorphSizeWidth",
+			"m_plateLocate",
+			"setMorphSizeWidth",
+			");\n",
+			"plateLocate",
+			"MORPH_ELLIPSE",
+			"20",
+			"getStructuringElement",
+			"platelocate(",
+			"getStructuringElement",
+			"cvtcolor(",
+			"platelocate(",
+			"morph",
+			"25",
+			"copyTo",
+			"sobelOper",
+			"Gauss",
+			">>",
+			"R",
+			"call_hook",
+			"issues/:id",
+			"cars",
+			"users_for_new_watcher",
+			"link_to",
+			"splitcontent",
+			"/new",
+			"/issues/new",
+			"def new",
+			"new",
+			"parse",
+			"<>",
+			"print",
+			"print(",
+			"print ",
+			"\n",
+			"	",
+			"RoundEx",
+			"\n",
+			"\"span",
+			"'ID'",
+			"\n",
+			"mazy",
+			"row",
+			"\n",
+			"1",
+			"@shanghaitech.edu.cn",
+			"i",
+			"nan",
+			"}\n",
+			"cvLoadImage",
+			"_IplImage",
+			"IplImage",
+			"cvmat",
+			"mat",
+			"read",
+			"IplImage",
+			"cvCreateImage",
+			"upload_mpc",
+			"form",
+			"led",
+			"controll_led",
+			"superuser",
+			"TEMPLATE_CONTEXT_PROCESSORS",
+			"int",
+			"data['pos'] = forward(data['pos'])",
+			"data['pos'] = turnright(data['pos'])",
+			"data['pos'] = turnleft(data['pos'])",
+			"turn_right",
+			"next_pos",
+			"turn_left",
+			"check_right",
+			"check_front",
+			"check(data['pos'])",
+			"data['map']",
+			"point['d']",
+			"point['y']",
+			"point['x']",
+			", ",
+			"callbackCones",
+			"plate_recognize",
+			"plateDetectDeep",
+			"test_chars_segment",
+			"matVec",
+			"plateLocate",
+			"test_plate_locate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"col",
+			"\"",
+			"../image",
+			"> >",
+			"B",
+			"G",
+			"!=",
+			"print(",
+			"\"col-md-",
+			"`ID`",
+			"\"ID\"",
+			"\"id\"",
+			"row-fluid",
+			"is_superuser",
+			"forward()",
+			"o=(o + 3) % 4",
+			"o=(o + 5) % 4",
+			"turnright",
+			"forward",
+			"turnleft",
+			"wallonright",
+			"wallinfront",
+			"(x < 0) or (y < 0) or (y >= len(map)) or (x >= len(map[0]))",
+			"map",
+			"o",
+			"y",
+			"x",
+			",",
+			"indigo",
+			"",
+			"None",
+			"insert into `auth_user` (`id`,`password`,`last_login`,`is_superuser`,`username`,`first_name`,`last_name`,`email`,`is_staff`,`is_active`,`date_joined`)",
+			" ",
+			"'",
+			"`",
+			"post(\"",
+			"",
+			"refresh_communiaction(",
+			"refresh_communiaction",
+			"2015-02-12 10:46:55",
+			"请各频道代表记得查看本国家/地区/组织是否收到meeting申请。",
+			"user",
+			"	",
+			"428BCA",
+			"BooleanField(default=False,",
+			"umunc_cheetah"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/people.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								820,
+								820
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								12,
+								23,
+								2,
+								14,
+								37,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ShanghaitechSIST.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Archive/Code/EasyPR/untitled.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

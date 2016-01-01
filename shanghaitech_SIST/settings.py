@@ -51,7 +51,7 @@ INSTALLED_APPS = (
     'djangocms_file',
     'djangocms_timerange',
     'djangocms_plaintext',
-    'gunicorn',
+    # 'gunicorn',
     'shanghaitech_SIST',
 
     'django.contrib.admin',
@@ -115,6 +115,7 @@ TEMPLATES = [
 CMS_TEMPLATES = (
     ('article.html', 'Article'),
     ('seminars.html', 'Seminars'),
+    ('people.html', 'People'),
     ('list.html', 'List'),
     ('list_news.html', 'News List'),
     ('list_seminars.html', 'Seminars List'),
@@ -246,6 +247,101 @@ CMS_PLACEHOLDER_CONF = {
                 }
             },
         ]
-    }
+    },
+    'people.html people_photo': {
+        'name' : 'people_photo',
+        'plugins': ['PicturePlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'PicturePlugin',
+                'values':{
+                    'image':'/static/image/people_none.jpg'
+                }
+            },
+        ]
+    },
+    'people.html people_name': {
+        'name' : 'people_name',
+        'plugins': ['PlainTextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'PlainTextPlugin',
+                'values':{
+                    'body':'Enter Name'
+                }
+            },
+        ]
+    },
+    'people.html people_title': {
+        'name' : 'people_title',
+        'plugins': ['PlainTextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'PlainTextPlugin',
+                'values':{
+                    'body':'Enter Title'
+                }
+            },
+        ]
+    },
+    'people.html people_tel': {
+        'name' : 'people_tel',
+        'plugins': ['PlainTextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'PlainTextPlugin',
+                'values':{
+                    'body':'Enter Tel'
+                }
+            },
+        ]
+    },
+    'people.html people_email': {
+        'name' : 'people_email',
+        'plugins': ['PlainTextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'PlainTextPlugin',
+                'values':{
+                    'body':'Enter Email'
+                }
+            },
+        ]
+    },
+    'people.html people_office': {
+        'name' : 'people_office',
+        'plugins': ['PlainTextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'PlainTextPlugin',
+                'values':{
+                    'body':'Enter Office'
+                }
+            },
+        ]
+    },
+    'people.html people_homepage': {
+        'name' : 'people_homepage',
+        'plugins': ['PlainTextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'PlainTextPlugin',
+                'values':{
+                    'body':'Enter Homepage'
+                }
+            },
+        ]
+    },
+    'people.html people_content': {
+        'name' : 'people_content',
+        'plugins': ['TextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'TextPlugin',
+                'values':{
+                    'body':'<p>Enter your Content</p>'
+                }
+            },
+        ]
+    },
 }
-

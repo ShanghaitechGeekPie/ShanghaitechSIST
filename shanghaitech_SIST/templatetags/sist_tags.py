@@ -5,6 +5,7 @@ from classytags.core import Options, Tag
 from classytags.helpers import AsTag
 from cms.templatetags.cms_tags import ShowPlaceholderById
 from django.core.exceptions import ImproperlyConfigured
+import math
 
 register = template.Library()
 
@@ -75,7 +76,7 @@ class Paginate(AsTag):
     def get_value(self, context, request, container, maxitem, maxmenuitem, page, key):
         maxitem, maxmenuitem, page = int(maxitem), int(maxmenuitem), int(page)
         length = len(container)
-        maxpage = length // maxitem
+        maxpage = math.ceil(length / maxitem)
 
         if not page:
             try:
