@@ -94,6 +94,39 @@
 {% endfor %}
 ```
 
+##块定义与模板继承
+
+允许通过```{% block name %}```的方式定义块或通过```{% block name %}something{% endblock %}```定义块及缺省内容。
+
+在其他模板文件通过```{% extends "base.html" %}```标记继承上级模板，并在内部```{% block name %}something{% endblock %}```重载上级块定义。
+
+允许通过```{% include "foo/bar.html" %}```标签导入其他模板页面的渲染结果。
+
+前端模板大量使用了block和extends定义重用代码。
+
+##Django-CMS官方前端页面模板的扩展约定
+
+详细约定参阅Django-CMS官方文档
+
+###定义Placeholder
+
+定义Placeholder——及由Django-CMS控制的各页面不同的数据。由数据库渲染得到，运行状态后台可以修改。
+
+```
+{% placeholder 'article_content' %}
+```
+
+###获取页面参数
+
+获取当前页面的部分状态数据，诸如页面的标题、当前语言等等。
+
+```
+{% page_attribute "page_title" %}
+```
+
+###更多
+
+参考Django-CMS官方文档API部分关于Template Tag的定义。
 
 ##涉及代码
 
