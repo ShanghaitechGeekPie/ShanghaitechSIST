@@ -38,3 +38,13 @@ Plain概念与运作机制，详见Django-CMS官方文档
 	* tests.py 测试文件（未使用）
 	* views.py 视图文件（未使用）
 
+###程序逻辑
+注册一个TimeRange的数据类，记录两个时间点，渲染为```Wed Dec. 30th, 2015, 3:00 p.m. ~ Wed Dec. 30th, 2015, 3:00 p.m.<var class="hide">Dec 30th</var>```
+
+```
+{{ instance.starttime | date:'D N jS, Y, g:i a' }} ~ {{ instance.endtime | date:'D N jS, Y, g:i a' }}
+<var class="hide">{{ instance.starttime | date:'M jS' }}</var>
+```
+
+```<var class="hide">```一段封装为便于上级调取不同语言的样式。
+
