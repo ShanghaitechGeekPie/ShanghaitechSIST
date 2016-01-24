@@ -24,8 +24,17 @@ show_placeholder_as
 ###用法
 
 ```
-show_placeholder_as placeholder_name reverse_id lang site
+show_placeholder_as placeholder_name page_lookup language site as varname
 ```
+参数
+```
+placeholder_name 必选 placeholder名称
+page_lookup 必选 placeholder名称
+language 必选 placeholder名称
+site 必选 placeholder名称
+as 关键字
+varname 必选 placeholder名称
+
 
         Argument('placeholder_name'),
         Argument('reverse_id'),
@@ -33,3 +42,4 @@ show_placeholder_as placeholder_name reverse_id lang site
         Argument('site', required=False, default=None),
         'as',
         Argument('varname', required=False, resolve=False),
+```
