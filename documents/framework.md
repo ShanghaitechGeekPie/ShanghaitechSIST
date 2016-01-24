@@ -21,8 +21,3 @@
 		* js
 			* dist
 				* bundle.admin.changeform.min.js 增加时间戳入口
-* templates
-	* admin
-		* cms
-			* page
-				* change_form.html
