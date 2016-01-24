@@ -188,10 +188,6 @@ migrations目录为Django数据库结构分析目录，可删除
 	* list_seminars.html 讲座页面列表模板，参见Chapter5
 	* people.html 人员页面模板，参见Chapter5
 	* seminars.html 讲座页面模板，参见Chapter5
-	* admin 优先级覆盖Django_CMS，参见Chapter2
-		* cms
-			* page
-				* change_form.html
 	* menu 菜单模板，参见Chapter6
 		* home_news_menu.html
 		* home_seminars_menu.html
