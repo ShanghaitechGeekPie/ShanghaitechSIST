@@ -69,16 +69,16 @@ Paginate [request] [container] maxitem [maxitem] maxmenuitem [maxmenuitem] page 
 ```
 参数
 ```
-request 必选 placeholder名称
-container 必选 请看Django-CMS
+request 必选 Django request对象，一般只需要在模板传递request对象即可
+container 必选 需要被分页的数据，一般为一个list集合
 maxitem 关键字
-maxitem 可选 语言，默认为和当前渲染语言一致
+maxitem 可选 每页显示多少个，默认为30
 maxmenuitem 关键字
-maxmenuitem 可选 语言，默认为和当前渲染语言一致
+maxmenuitem 可选 页码选择器最多显示多少个，默认为10
 page 关键字
-page 可选 语言，默认为和当前渲染语言一致
+page 可选 当前页号，默认从request.GET中解析
 key 关键字
-key 可选 语言，默认为和当前渲染语言一致
+key 可选 request.GET中页号关键字，默认为'paginate_id'
 as 关键字
 varname 必选 渲染结果存储在前端变量varname中
 ```
