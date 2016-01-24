@@ -46,6 +46,7 @@ INSTALLED_APPS = (
     'menus',  # helper for model independent hierarchical website navigation
     'sekizai',  # for javascript and css management
     'djangocms_admin_style',  # for the admin skin. You **must** add 'djangocms_admin_style' in the list **before** 'django.contrib.admin'.
+
     'djangocms_text_ckeditor',
     'djangocms_picture',
     'djangocms_file',
@@ -161,7 +162,7 @@ LANGUAGES = [
     ('zh', '中文'),
 ]
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
