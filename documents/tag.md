@@ -42,7 +42,6 @@ varname 必选 渲染结果存储在前端变量varname中
 * templates
 	* menu
 		* home_news_menu.html
-		* 
 
 ```
 {% show_placeholder_as "article_content" child.id as article_content %}
@@ -67,7 +66,9 @@ Paginate
 ```
 Paginate [request] [container] maxitem [maxitem] maxmenuitem [maxmenuitem] page [page] key [key] as [varname]
 ```
+
 参数
+
 ```
 request 必选 Django request对象，一般只需要在模板传递request对象即可
 container 必选 需要被分页的数据，一般为一个list集合
@@ -83,20 +84,77 @@ as 关键字
 varname 必选 渲染结果存储在前端变量varname中
 ```
 
+返回对象
+返回一个Python dict对象
+
+```
+{
+    'container': 原container对象,
+    'containerP': 分页完成后的container对象,
+    'attr':{
+        'currectpage': 当前页号,
+        'maxpage': 最大页码,
+        'start': 当前页最小的index,
+        'end': 当前页最大的index,
+        'length': 总个数,
+        'page': [ 页码选择器对象，尽可能以当前页为中心前后扩展指定个数
+                    {
+                        'id': 页号,
+                        'currectpage': 是否为当前页,
+                    },
+                    {
+                        'id',
+                        'currectpage',
+                    },
+                    ……
+                ],
+        'previous': 是否有前一页,
+        'next': 是否有后一页,
+        'key': 页号关键字,
+    }
+}
+```
+
 ###实例
 
 
 * templates
 	* menu
-		* home_news_menu.html
-		* 
+		* list_menu.html
+
+注：children|slice:"::-1"一句将新闻列表reverse。默认排序为从旧到新，reverse后符合一般理解上的顺序。
 
 ```
-{% show_placeholder_as "article_content" child.id as article_content %}
-<div class="col-md-12 home-news-block clickbox" href="{{ child.attr.redirect_url|default:child.get_absolute_url }}">
-	<h4>{{ child.get_menu_title }}</h4>
-	<p>{{ article_content | striptags | truncatechars:300 }}</p>
+{% Paginate request children|slice:"::-1" maxitem 10 as children %}
+
+{% for child in children.containerP %}
+	{% block list_body %}
+	<div class="col-md-12 list-block clickbox" href="{{ child.attr.redirect_url|default:child.get_absolute_url }}">
+		{{ child.get_menu_title }}
+	</div>
+	{% endblock %}
+{% endfor %}
+
+<div class="col-md-12 list-menu text-center">
+	<nav>
+		<ul class="pagination pagination-sm">
+			<li {% if not children.attr.previous %}class="disabled"{% endif %}>
+				<a href="?{{ children.attr.key }}={{ children.attr.currectpage | add:"-1" }}">
+					<span aria-hidden="true">&laquo; Previous</span>
+				</a>
+			</li>
+			{% for page in children.attr.page %}
+			<li {% if page.currectpage %}class="active"{% endif %}><a href="?{{ children.attr.key }}={{ page.id }}">{{ page.id }}</a></li>
+			{% endfor %}
+			<li {% if not children.attr.next %}class="disabled"{% endif %}>
+				<a href="?{{ children.attr.key }}={{ children.attr.currectpage | add:"1" }}">
+					<span aria-hidden="true">Next &raquo;</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
 </div>
+
 ```
 
 
