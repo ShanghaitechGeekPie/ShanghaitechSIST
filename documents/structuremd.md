@@ -39,4 +39,12 @@ pip3 install djangocms-file
 源代码默认状态使用sqlite3。
 
 ##配置
-配置文件位于shanghaitech_SIST/settings.py
+
+核心配置文件位于shanghaitech_SIST/settings.py，内部内容说明参见注释，Django官方文档及Django_CMS官方文档。
+
+##数据库
+
+数据库连接使用Django官方的连接模块，可以任意选择Django支持的数据库postgresql、mysql、sqlite3、oracle等，可能需要对特定的服务器安装特定的组件，具体查阅Django官方文档。
+
+##目录结构
+
