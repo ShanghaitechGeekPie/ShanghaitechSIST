@@ -18,3 +18,23 @@ Plain概念与运作机制，详见Django-CMS官方文档
 	* tests.py 测试文件（未使用）
 	* views.py 视图文件（未使用）
 
+###程序逻辑
+注册一个PlainText的数据类，提供不包含任何特定输出处理的原始文字串插件。
+
+##TimeRange
+
+###涉及代码
+
+* djangocms_timerange
+	* __init__.py Python模块标记文件
+	* admin.py Admin注册文件（未使用）
+	* cms_plugins.py 插件逻辑代码
+	* migrations 数据库模型定义
+	* models.py 插件模板
+	* templates
+		* cms
+			* plugins
+				* djangocms_timerange.html
+	* tests.py 测试文件（未使用）
+	* views.py 视图文件（未使用）
+
