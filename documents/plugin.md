@@ -1,6 +1,6 @@
 # Chapter 3 plugin扩展
 
-Plain概念与运作机制，详见Django-CMS官方文档
+Plain概念与运作机制，详见Django-CMS官方文档。
 
 ##PlainText原始文本插件
 
