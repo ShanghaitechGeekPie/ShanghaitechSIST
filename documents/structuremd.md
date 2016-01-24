@@ -4,7 +4,7 @@
 
 ###后端框架
 
-整体站点构建在Python Django 1.8.6的Python 3版本上，使用django的基本框架、Django_CMS框架以及部分Django_CMS官方插件。
+整体站点构建在Python Django 1.8.6的Python 3版本上，使用django的基本框架、Django_CMS框架以及部分Django_CMS官方插件，尽可能使用开源组件，减少自主开发部分。
 
 ###前端框架
 
