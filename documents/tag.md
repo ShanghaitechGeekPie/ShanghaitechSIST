@@ -29,9 +29,77 @@ show_placeholder_as [placeholder_name] [page_lookup] [language] [site] as [varna
 参数
 ```
 placeholder_name 必选 placeholder名称
-page_lookup 必选 placeholder名称
-language 必选 placeholder名称
-site 必选 placeholder名称
+page_lookup 必选 请看Django-CMS API关于page_lookup页面定位的描述
+language 可选 语言，默认为和当前渲染语言一致
+site 可选 站点，默认只有一个站点不需要填写
 as 关键字
-varname 必选 placeholder名称
+varname 必选 渲染结果存储在前端变量varname中
 ```
+
+###实例
+
+
+* templates
+	* menu
+		* home_news_menu.html
+		* 
+
+```
+{% show_placeholder_as "article_content" child.id as article_content %}
+<div class="col-md-12 home-news-block clickbox" href="{{ child.attr.redirect_url|default:child.get_absolute_url }}">
+	<h4>{{ child.get_menu_title }}</h4>
+	<p>{{ article_content | striptags | truncatechars:300 }}</p>
+</div>
+```
+
+##Paginate
+
+###Tag注册关键字
+
+Paginate
+
+###简介
+
+各种分页插件。
+
+###用法
+
+```
+Paginate [request] [container] maxitem [maxitem] maxmenuitem [maxmenuitem] page [page] key [key] as [varname]
+```
+参数
+```
+request 必选 placeholder名称
+container 必选 请看Django-CMS
+maxitem 关键字
+maxitem 可选 语言，默认为和当前渲染语言一致
+maxmenuitem 关键字
+maxmenuitem 可选 语言，默认为和当前渲染语言一致
+page 关键字
+page 可选 语言，默认为和当前渲染语言一致
+key 关键字
+key 可选 语言，默认为和当前渲染语言一致
+as 关键字
+varname 必选 渲染结果存储在前端变量varname中
+```
+
+###实例
+
+
+* templates
+	* menu
+		* home_news_menu.html
+		* 
+
+```
+{% show_placeholder_as "article_content" child.id as article_content %}
+<div class="col-md-12 home-news-block clickbox" href="{{ child.attr.redirect_url|default:child.get_absolute_url }}">
+	<h4>{{ child.get_menu_title }}</h4>
+	<p>{{ article_content | striptags | truncatechars:300 }}</p>
+</div>
+```
+
+
+
+
+
