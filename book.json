@@ -1,6 +1,6 @@
 {
     "structure": {
-        "readme": "documents/README.md",
+        "readme": "documents/README.md", 
         "summary": "documents/SUMMARY.md"
     }
     
