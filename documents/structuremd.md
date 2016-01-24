@@ -50,6 +50,8 @@ pip3 install djangocms-file
 
 ##数据库
 
+数据库结构由Django内置的抽象层处理。
+
 数据库连接使用Django官方的连接模块，可以任意选择Django支持的数据库postgresql、mysql、sqlite3、oracle等，可能需要对特定的服务器安装特定的组件，具体查阅Django官方文档。
 
 数据库使用方法详见Django官方文档。以下仅给出示例。
