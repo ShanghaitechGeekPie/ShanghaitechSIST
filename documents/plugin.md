@@ -17,3 +17,4 @@ Plain概念与运作机制，详见Django-CMS官方文档
 				* plaintext_plugin.html
 	* tests.py 测试文件（未使用）
 	* views.py 视图文件（未使用）
+
