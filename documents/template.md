@@ -48,11 +48,50 @@
     {{ attr2 }}
 {% endif %}
 
-{% if attr == 1 and attr2 > 2 %}
+{% if not attr == 1 and attr2 > 2 %}
     {{ attr }}
 {% else %}
     {{ attr2 }}
 {% endif %}
+```
+
+####逻辑块 ifequal & ifnotequal
+
+字面意义，if的一种shortcut。
+
+
+```
+{% ifequal attr attr2 %}
+    {{ attr }}
+{% else %}
+    {{ attr2 }}
+{% endifequal %}
+```
+
+####逻辑块 for
+
+
+类Python循环，不接受计数器循环。empty可选，当被循环对象不存在或为空时触发。循环内存在forloop循环状态变量。
+
+```
+{% for item in list %}
+    {{ item.name }}
+{% endfor %}
+
+{% for item in list %}
+    {{ item.name }}
+{% empty %}
+    There is no item.
+{% endfor %}
+
+{% for key, value in data.items %}
+    {{ key }}: {{ value }}
+{% endfor %}
+
+{% for item in list %}
+    {{ item.name }}
+    {% if not forloop.first %}、{% endif %}
+{% endfor %}
 ```
 
 
