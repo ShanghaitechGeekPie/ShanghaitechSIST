@@ -10,9 +10,12 @@
 				<div class="col-md-9">
 					<p>{% block root_with_right_menu_body %}{% endblock %}</p>
 				</div>
-				<div class="col-md-3">
+				<div class="container default-hr visible-xs-block">
+					<hr>
+				</div>
+				<div class="col-md-3" id="root-with-right-menu-menu">
 					{% block root_with_right_menu_menu %}
-					<ul class="list-unstyled" id="root-with-right-menu-menu">
+					<ul class="list-unstyled">
 						{% show_sub_menu 1 0 100 "menu/root_with_right_menu_menu.html" %}
 					</ul>
 					{% endblock %}

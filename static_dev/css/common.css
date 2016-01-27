@@ -2,7 +2,7 @@
 * @Author: eastpiger
 * @Date:   2015-11-05 15:58:40
 * @Last Modified by:   eastpiger
-* @Last Modified time: 2015-12-23 01:00:08
+* @Last Modified time: 2016-01-27 18:12:59
 */
 @import url(https://fonts.googleapis.com/css?family=Lato);
 *{
@@ -40,19 +40,33 @@ body{
 		url("/static/image/bg.jpg") center center no-repeat;
 	background-size: cover;
 }
+#top-menu-btn{
+	display: none;
+}
+#top-menu-logo{
+	display: none;
+}
 #top-menu{
 	margin-top: 10px;
+	text-align: right;
 }
 #top-menu a{
 	color: #DDDDDD;
 	font-size: 18px;
 	font-weight: normal;
 }
+#top-menu li{
+	text-align: right;
+	width: auto;
+	float: none;
+}
 #top-logo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 0px 3px 5px rgb(0, 0, 0);
     position: absolute;
     top: 30px;
+    left: 0px;
+    width: 100%;
 }
 #top-logo h1{
 	color: #DDDDDD;
@@ -69,6 +83,7 @@ body{
 	font-weight: lighter;
 	vertical-align: bottom;
 	width: 100%;
+	margin: 0px;
 }
 #footer h2 small{
 	font-weight: normal;
@@ -78,15 +93,15 @@ body{
 	font-size:14px;
 }
 .default-hr hr{
-	margin: 0px;
+	margin: 30px 0px;
 	border-color: #E0E9FF;
 	color: #E0E9FF;
 }
 
-#root-with-right-menu-menu > li{
+#root-with-right-menu-menu > ul{
 	margin-top: 40px;
 }
-#root-with-right-menu-menu > li a{
+#root-with-right-menu-menu > ul > li a{
 	font-size: 30px;
 	font-weight: 300;
 	font-style: italic;
@@ -94,16 +109,116 @@ body{
 	color: black;
 	text-decoration: none;
 }
-#root-with-right-menu-menu > li > ul > li{
+#root-with-right-menu-menu > ul > li > ul > li{
 	line-height: 20px;
 	margin-top: 10px;
 }
 
-#root-with-right-menu-menu > li > ul > li a{
+#root-with-right-menu-menu > ul > li > ul > li a{
 	font-size: 14px;
 	font-weight: 300;
 	font-style: italic;
 	letter-spacing: 3px;
 	color: #333;
 	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	#top-menu-btn{
+		position: absolute;
+		color: #DDDDDD;
+		font-size: 18px;
+		top: 4px;
+		right: 0px;
+		display: block;
+		z-index: 11;
+		padding: 10px;
+	}
+	#top-menu-btn:hover{
+		cursor: pointer;
+	}
+	#top-menu-logo{
+		position: fixed;
+		color: #DDDDDD;
+		font-size: 18px;
+		top: 20px;
+		left: 10px;
+		display: block;
+		z-index: 11;
+		display: none;
+	}
+	#top-menu{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		margin: 0px;
+		z-index: 10;
+		padding: 60px 0px;
+		background-color: rgba(0, 0, 0, 0);
+		height: 0px;
+		width: 0px;
+		overflow: hidden;
+	}
+	#top-menu li{
+		border-bottom: 1px solid #DDDDDD;
+		text-align: center;
+		width: 50%;
+		float: left;
+	}
+	#top-menu a{
+		font-size: 22px;
+		font-weight: normal;
+		width: 100%;
+		height: 100%;
+		display: block;
+		padding: 20px 0px;
+	}
+	body.mobile-menu-enabled #top-menu{
+		display: block;
+		background-color: rgba(0, 0, 0, 0.8);
+		width: 100%;
+		height: 100%;
+		transition: background-color .15s ease-out;
+	}
+	body.mobile-menu-enabled #top-menu-logo{
+		display: block;
+	}
+	#top-logo{
+	    top: 4px;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	}
+	#top-logo h1{
+		color: #DDDDDD;
+	}
+	#top-logo #university{
+		font-size: 18px;
+	}
+	#top-logo #school{
+		font-size: 24px;
+		line-height: 30px;
+	}
+	#footer h2{
+		font-size: 16px;
+	}
+	#footer h2 span{
+		font-size:10px;
+	}
+}
+@media (max-width: 992px) {
+	#top-logo #school{
+		font-size: 30px;
+	}
+	#root-with-right-menu-menu > ul{
+		margin-top: 0px;
+	}
+	#root-with-right-menu-menu > ul > li > a{
+		font-size: 20px;
+	}
+	#root-with-right-menu-menu > ul > li > ul > li{
+		font-size: 16px;
+		width: 50%;
+		float: left;
+	}
+
 }

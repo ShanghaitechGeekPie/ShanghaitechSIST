@@ -3,7 +3,7 @@
 {% if languages|length > 1 %}
 {% for language in languages %}
 {% if current_language != language.0 %}
-<li class="child lang">
+<li class="col-xs-6 child lang">
 	<a href="{% page_language_url language.0 %}" title="{% trans "Change to language:" %} {{ language.1 }}">{{ language.1 }}</a>
 </li>
 {% endif %}
