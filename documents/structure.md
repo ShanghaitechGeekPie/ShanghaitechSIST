@@ -70,7 +70,7 @@ python3 manage.py migrate
 静态文件开发在static_dev目录下，由以下指令遍历收集所有静态文件后放置在static目录。
 
 ```
-python3 manage.py collectstaticfile
+python3 manage.py collectstatic
 ```
 
 ##服务器
@@ -122,7 +122,7 @@ migrations目录为Django数据库结构分析目录，可删除
 				* djangocms_timerange.html
 	* tests.py
 	* views.py
-	* 
+	*
 * documents 文档内容
 * manage.py Django服务器接口模块
 * media 上传目录位置，可在配置内修改

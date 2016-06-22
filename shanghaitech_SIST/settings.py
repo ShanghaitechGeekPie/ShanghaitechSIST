@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kak^%w2j_h4#gqydh#j469z)vpafa*%=)gii7m&ny4l+6l#w-0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["sist.geekpie.org"]
 
@@ -109,6 +109,7 @@ CMS_TEMPLATES = (
     ('list.html', 'List'),
     ('list_news.html', 'News List'),
     ('list_seminars.html', 'Seminars List'),
+    ('list_people.html', 'People List'),
     ('list_overview.html', 'Overview List'),
     ('home.html', 'Home'),
 )
@@ -260,74 +261,45 @@ CMS_PLACEHOLDER_CONF = {
             },
         ]
     },
+    'people.html people_profile': {
+        'name' : 'people_profile',
+        'plugins': ['TextPlugin'],
+        'default_plugins':[
+            {
+                'plugin_type':'TextPlugin',
+                'values':{
+                    'body':'''
+                    <p><strong>Title: </strong>Title here<br/></p>
+                    <p><strong>PHD: </strong>PHD here<br/></p>
+                    <p><strong>Tel: </strong>Tel here<br/></p>
+                    <p><strong>Email: </strong>Email here<br/></p>
+                    <p><strong>Office: </strong>Office here<br/></p>
+                    <p><strong>Homepage: </strong>Homepage here<br/></p>
+                    '''
+                }
+            },
+        ]
+    },
     'people.html people_name': {
         'name' : 'people_name',
-        'plugins': ['PlainTextPlugin'],
+        'plugins': ['TextPlugin'],
         'default_plugins':[
             {
-                'plugin_type':'PlainTextPlugin',
+                'plugin_type':'TextPlugin',
                 'values':{
-                    'body':'Enter Name'
+                    'body':'<p>Dean Cher Wang / 王雪红 院长</p>'
                 }
             },
         ]
     },
-    'people.html people_title': {
-        'name' : 'people_title',
-        'plugins': ['PlainTextPlugin'],
+    'people.html people_brefintro': {
+        'name' : 'people_brefintro',
+        'plugins': ['TextPlugin'],
         'default_plugins':[
             {
-                'plugin_type':'PlainTextPlugin',
+                'plugin_type':'TextPlugin',
                 'values':{
-                    'body':'Enter Title'
-                }
-            },
-        ]
-    },
-    'people.html people_tel': {
-        'name' : 'people_tel',
-        'plugins': ['PlainTextPlugin'],
-        'default_plugins':[
-            {
-                'plugin_type':'PlainTextPlugin',
-                'values':{
-                    'body':'Enter Tel'
-                }
-            },
-        ]
-    },
-    'people.html people_email': {
-        'name' : 'people_email',
-        'plugins': ['PlainTextPlugin'],
-        'default_plugins':[
-            {
-                'plugin_type':'PlainTextPlugin',
-                'values':{
-                    'body':'Enter Email'
-                }
-            },
-        ]
-    },
-    'people.html people_office': {
-        'name' : 'people_office',
-        'plugins': ['PlainTextPlugin'],
-        'default_plugins':[
-            {
-                'plugin_type':'PlainTextPlugin',
-                'values':{
-                    'body':'Enter Office'
-                }
-            },
-        ]
-    },
-    'people.html people_homepage': {
-        'name' : 'people_homepage',
-        'plugins': ['PlainTextPlugin'],
-        'default_plugins':[
-            {
-                'plugin_type':'PlainTextPlugin',
-                'values':{
-                    'body':'Enter Homepage'
+                    'body':'<p>Enter your bref introduction. This content will show on list page.</p>'
                 }
             },
         ]
