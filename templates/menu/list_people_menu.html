@@ -3,6 +3,7 @@
 {% load sist_tags %}
 
 {% block list_body %}
+{% show_placeholder_as "people_name" child.id as people_name %}
 {% show_placeholder_as "people_photo" child.id as people_photo %}
 {% show_placeholder_as "people_profile" child.id as people_profile %}
 {% show_placeholder_as "people_brefintro" child.id as people_brefintro %}
@@ -13,7 +14,7 @@
 			{{ people_photo }}
 		</div>
 		<div class="col-xs-10">
-			<h4>{{ child.get_menu_title }}</h4>
+			<h4>{{ people_name }}</h4>
 			{{ people_brefintro }}
 		</div>
 	</div>
