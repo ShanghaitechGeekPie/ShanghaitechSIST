@@ -188,6 +188,12 @@ MEDIA_URL = "/media/"
 
 TEXT_SAVE_IMAGE_FUNCTION = None
 
+CMS_CACHE_DURATIONS = {
+    'content': 1,
+    'menus': 1,
+    'permissions': 1,
+}
+
 CMS_PLACEHOLDER_CONF = {
     'article.html article_content': {
         'name' : 'article_content',
