@@ -111,6 +111,7 @@ CMS_TEMPLATES = (
     ('list_seminars.html', 'Seminars List'),
     ('list_people.html', 'People List'),
     ('list_overview.html', 'Overview List'),
+    ('list_overview_people.html', 'Overview_people List'),
     ('home.html', 'Home'),
 )
 
@@ -144,9 +145,9 @@ WSGI_APPLICATION = 'shanghaitech_SIST.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
-        'USER': 'test',
-        'PASSWORD': 'b82KM98LdheCxFYY',
+        'NAME': 'sist_db',
+        'USER': 'root',
+        'PASSWORD': 'jinlei',
         'HOST': 'localhost',
         'PORT': '3306',
     }
