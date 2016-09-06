@@ -76,16 +76,23 @@ body{
 	line-height: 0px;
 }
 #footer{
-	margin-top: 0px;
+	font-family: Georgia, 'Times New Roman', Times, serif;  
+	margin-top: 30px;
 	margin-bottom: 30px;
+	height: 368px;
+	/*background: url("/static/image/bg.jpg") center center no-repeat;*/
+	/*background:-webkit-linear-gradient(top,#0a5299 0%, #083d73 100%);*/
+	background-color:#222;
 }
 #footer h2{
+	color: #DDDDDD;
 	font-weight: lighter;
 	vertical-align: bottom;
 	width: 100%;
 	margin: 0px;
 }
 #footer h2 small{
+	color: #DDDDDD;
 	font-weight: normal;
 }
 #footer h2 span{

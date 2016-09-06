@@ -2,7 +2,7 @@
 * @Author: eastpiger
 * @Date:   2015-11-05 15:58:41
 * @Last Modified by:   eastpiger
-* @Last Modified time: 2015-12-24 20:05:09
+* @Last Modified time: 2016-06-22 03:13:43
 */
 #list{
 	margin-bottom: 60px;
@@ -67,6 +67,17 @@
 	color: #777777;
 }
 
+.list-block-people{
+}
+.list-block-people .list-block-people-photo{
+	padding-right: 0px;
+}
+.list-block-people .list-block-people-photo img{
+	width: 100%;
+	height: auto;
+}
+
+
 .list-block-overview{
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -83,4 +94,14 @@
 }
 .list-block-overview-inner span{
 	font-size: 8px;
+}
+
+.list-block-overview-people-inner{
+}
+.list-block-overview-people-inner .list-block-people-photo{
+	padding-right: 0px;
+}
+.list-block-overview-people-inner .list-block-people-photo img{
+	width: 100%;
+	height: auto;
 }

@@ -95,3 +95,13 @@
 .list-block-overview-inner span{
 	font-size: 8px;
 }
+
+.list-block-overview-people-inner{
+}
+.list-block-overview-people-inner .list-block-people-photo{
+	padding-right: 0px;
+}
+.list-block-overview-people-inner .list-block-people-photo img{
+	width: 100%;
+	height: auto;
+}

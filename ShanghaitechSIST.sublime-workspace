@@ -471,7 +471,7 @@
 			"file": "templates/people.html",
 			"settings":
 			{
-				"buffer_size": 847,
+				"buffer_size": 737,
 				"line_ending": "Unix"
 			}
 		}
@@ -640,12 +640,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/eastpiger/Web/ShanghaitechSIST",
-		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST",
-		"/Users/eastpiger/Web/ShanghaitechSIST/shanghaitech_SIST/templatetags",
-		"/Users/eastpiger/Web/ShanghaitechSIST/templates",
-		"/Users/eastpiger/Web/ShanghaitechSIST/templates/admin",
-		"/Users/eastpiger/Web/ShanghaitechSIST/templates/menu"
+		"/home/jinlei/Projects/ShanghaitechSIST"
 	],
 	"file_history":
 	[
@@ -995,15 +990,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 847,
+						"buffer_size": 737,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								820,
-								820
+								737,
+								737
 							]
 						],
 						"settings":
