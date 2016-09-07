@@ -24,6 +24,7 @@
 .list-block{
 	padding: 10px;
 	border-bottom: #EEEEEE solid 1px;
+	transition: all .3s;
 }
 .list-block:hover{
 	background-color: #EEEEEE;
@@ -94,6 +95,11 @@
 }
 .list-block-overview-inner span{
 	font-size: 8px;
+}
+
+.list-block-more{
+	font-size: 20px;
+	border-bottom: 0px;
 }
 
 .list-block-overview-people-inner{

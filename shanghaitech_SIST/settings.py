@@ -142,26 +142,26 @@ WSGI_APPLICATION = 'shanghaitech_SIST.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'sist_db',
-#         'USER': 'root',
-#         'PASSWORD': 'jinlei',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#     }
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sist_db',
-        'USER': 'sist_db',
-        'PASSWORD': 'nhuHwBvXCPMSNcUW',
+        'USER': 'root',
+        'PASSWORD': 'jinlei',
         'HOST': 'localhost',
         'PORT': '3306',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'sist_db',
+#         'USER': 'sist_db',
+#         'PASSWORD': 'nhuHwBvXCPMSNcUW',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
