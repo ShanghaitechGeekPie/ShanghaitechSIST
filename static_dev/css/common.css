@@ -75,30 +75,97 @@ body{
 	font-size: 20px;
 	line-height: 0px;
 }
-#footer{
+
+#contactInfo{
 	font-family: Georgia, 'Times New Roman', Times, serif;  
-	margin-top: 30px;
-	margin-bottom: 30px;
-	height: 368px;
-	/*background: url("/static/image/bg.jpg") center center no-repeat;*/
-	/*background:-webkit-linear-gradient(top,#0a5299 0%, #083d73 100%);*/
+	margin-top:30px;	
+	height: 5 68px;
 	background-color:#222;
 }
-#footer h2{
+#contactInfo h2{
 	color: #DDDDDD;
 	font-weight: lighter;
 	vertical-align: bottom;
 	width: 100%;
 	margin: 0px;
 }
-#footer h2 small{
+
+#contactInfo h2 small{
 	color: #DDDDDD;
 	font-weight: normal;
 }
-#footer h2 span{
+#contactInfo h2 span{
 	font-weight: lighter;
 	font-size:14px;
 }
+#contactInfo .info-left{
+	padding:50px;
+}
+#contactInfo .info-left .info-content{
+	margin:50px 0;
+	height:368px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	background: url("/static/image/river.jpg") no-repeat;
+	background-size: cover;
+}
+
+#contactInfo .info-right{
+	margin-top:100px;
+}
+#contactInfo .info-right h3{
+	color: #DDDDDD;
+	vertical-align: bottom;
+	width: 100%;
+	margin: 10px 0;
+}
+#contactInfo .info-right hr{
+	vertical-align: bottom;
+	border:none;
+	border-top:3px groove skyblue;
+	width: 30%;
+	margin: 10px 0;
+}
+#contactInfo .contact-info{
+	color: #DDDDDD;
+	font-weight: lighter;
+	font-size:18px;
+	vertical-align: bottom;
+	width: 100%;
+	margin: 0px;
+}
+#contactInfo .contact-info-item{
+	line-height: 200%;
+	vertical-align: middle;
+}
+#contactInfo .social-info{
+	margin-top:50px;
+}
+
+#contactInfo .social-info img{
+	width:50px;
+	height:50px;
+	margin:0 5px;
+}
+
+
+
+#footer{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	/*background: url("/static/image/bg.jpg") center center no-repeat;*/
+	/*background:-webkit-linear-gradient(top,#0a5299 0%, #083d73 100%);*/
+	background-color:#333;
+}
+
+#footer .footer-end{
+	color: #DDDDDD;
+	font-size: 18px;
+	margin:35px 0;
+	text-align: center;
+}
+
+
 .default-hr hr{
 	margin: 30px 0px;
 	border-color: #E0E9FF;
@@ -210,10 +277,10 @@ body{
 		font-size: 24px;
 		line-height: 30px;
 	}
-	#footer h2{
+	#contactInfo h2{
 		font-size: 16px;
 	}
-	#footer h2 span{
+	#contactInfo h2 span{
 		font-size:10px;
 	}
 }
