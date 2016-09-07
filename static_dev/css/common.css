@@ -7,7 +7,29 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 *{
 	font-weight: 200;
-	font-family: "Lato", STHeiti, "Microsoft YaHei", Helvetica, Arial, sans-serif;
+	font-family:
+		-apple-system,            // OSX ^10.11 & iOS ^9  San Francisco & 苹方
+
+		// English First
+		"Helvetica Neue",         // OSX
+		"Arial",                  // Win "Helvetica"
+		//" Segoe UI",            // Win ^8
+
+		// Chinese Fallback
+		"PingFang SC",            // OSX ^10.11 & iOS ^9  苹方（华康信凭黑）
+		"Hiragino Sans GB",       // OSX ^10.6            冬青黑体
+		"STHeiti",                // OSX <10.6  & iOS <9  华文黑体
+		"Microsoft YaHei",        // Win                  微软雅黑
+		"Microsoft JhengHei",     // Win                  微软正黑
+		"Source Han Sans SC",     // SourceHan - begin    思源黑体
+		"Noto Sans CJK SC",
+		"Source Han Sans CN",
+		"Noto Sans SC",
+		"Source Han Sans TC",
+		"Noto Sans CJK TC",       // SourceHan - end
+		"WenQuanYi Micro Hei",    // Linux                文泉驿微米黑
+		SimSun,                   // Win old              中易宋体
+		sans-serif;               // System Fallback
 }
 a{
 	text-decoration: none;
@@ -35,10 +57,22 @@ body{
 }
 #top{
 	border-top: rgb(0, 64, 152) 6px solid;
-	height: 140px;
+	height: 160px;
 	background: url("/static/image/bg_up.png") center center no-repeat,
 		url("/static/image/bg.jpg") center center no-repeat;
 	background-size: cover;
+}
+#top-menu-container {
+	background: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 6px;
+	left: 0px;
+	right: 0px;
+	height: 60px;
+  transition: all .3s;
+}
+#top-menu-container:hover {
+	background: rgba(0, 0, 0, 0.2);
 }
 #top-menu-btn{
 	display: none;
@@ -47,41 +81,59 @@ body{
 	display: none;
 }
 #top-menu{
-	margin-top: 10px;
 	text-align: right;
+	z-index: 2;
 }
 #top-menu a{
 	color: #DDDDDD;
 	font-size: 18px;
 	font-weight: normal;
+	line-height: 30px;
+	margin: 0px 10px;
+}
+#top-menu a:hover{
+	text-decoration: none;
+}
+#top-menu ul{
+	margin: 0px;
 }
 #top-menu li{
+	padding-top: 15px;
+	padding-bottom: 15px;
 	text-align: right;
 	width: auto;
 	float: none;
+  transition: all .3s;
+}
+#top-menu li:hover{
+	background: rgba(0, 0, 0, 0.2);
+	cursor: pointer;
 }
 #top-logo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 0px 3px 5px rgb(0, 0, 0);
-    position: absolute;
-    top: 30px;
-    left: 0px;
-    width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 #top-logo h1{
 	color: #DDDDDD;
 }
 #top-logo #university{
 	font-size: 20px;
-	line-height: 0px;
+	margin: 0px;
+  display: inline-block;
+	line-height: 30px;
+	padding: 15px 20px;
+}
+#top-logo #school{
+  text-shadow: 0px 3px 5px rgb(0, 0, 0);
+	padding: 0px 20px;
 }
 #footer{
-	font-family: Georgia, 'Times New Roman', Times, serif;  
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	height: 368px;
-	/*background: url("/static/image/bg.jpg") center center no-repeat;*/
-	/*background:-webkit-linear-gradient(top,#0a5299 0%, #083d73 100%);*/
 	background-color:#222;
 }
 #footer h2{
@@ -105,28 +157,57 @@ body{
 	color: #E0E9FF;
 }
 
-#root-with-right-menu-menu > ul{
-	margin-top: 40px;
+#root-with-right-menu-menu{
+	margin-top: -60px;
+	background: rgba(0, 64, 152, 0.4);
+	padding: 0px;
+  transition: all .3s;
+	color: white;
 }
-#root-with-right-menu-menu > ul > li a{
-	font-size: 30px;
+#root-with-right-menu-menu:hover{
+	background: rgba(0, 64, 152, 0.6);
+	padding: 0px 0px 10px 0px;
+}
+#root-with-right-menu-menu > ul{
+	margin: 0px 0px 40px 0px;
+}
+#root-with-right-menu-menu > ul > li > a{
+	font-size: 20px;
 	font-weight: 300;
 	font-style: italic;
 	letter-spacing: 3px;
-	color: black;
+	color: white;
 	text-decoration: none;
+	line-height: 40px;
+	text-align: right;
+	padding: 10px 20px;
+  display: block;
+	width: 100%;
+}
+#root-with-right-menu-menu > ul > li > ul{
+	padding: 0px;
+}
+#root-with-right-menu-menu > ul > li > ul > li:before{
+	content: "〇";
+	margin-right: 5px;
+}
+#root-with-right-menu-menu > ul > li > ul > li.selected:before{
+	content: "▶";
 }
 #root-with-right-menu-menu > ul > li > ul > li{
-	line-height: 20px;
-	margin-top: 10px;
+  padding-left: 30px;
+	line-height: 60px;
 }
-
+#root-with-right-menu-menu > ul > li > ul > li:hover{
+	background: rgba(255, 255, 255, 0.1);
+	cursor: pointer;
+}
 #root-with-right-menu-menu > ul > li > ul > li a{
 	font-size: 14px;
 	font-weight: 300;
 	font-style: italic;
 	letter-spacing: 3px;
-	color: #333;
+	color: white;
 	text-decoration: none;
 }
 

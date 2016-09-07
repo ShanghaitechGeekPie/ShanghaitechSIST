@@ -1,5 +1,9 @@
+{% load i18n %}
 {% load staticfiles %}
 {% load cms_tags sekizai_tags menu_tags %}
+
+{% get_current_language as LANGUAGE_CODE %}
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
@@ -26,14 +30,22 @@
 	<body>
 		{% cms_toolbar %}
 		<div class="container-fluid" id="top">
+			<div id="top-menu-container">
+				<div class="row-fluid">
+					<div class="col-md-12">
+						<div class="row-fluid">
+							<div class="col-md-12" id="top-menu">
+								<ul class="list-inline">
+									{% show_menu 0 0 1 100 "menu/root_menu.html" %}
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="row-fluid">
 				<div class="col-md-12">
 					<div class="row-fluid">
-						<div class="col-md-12" id="top-menu">
-							<ul class="list-inline">
-								{% show_menu 0 0 1 100 "menu/root_menu.html" %}
-							</ul>
-						</div>
 						<div class="col-md-12" id="top-menu-logo">
 							SIST @ ShanghaiTech
 						</div>
@@ -41,8 +53,20 @@
 							<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
 						</div>
 						<div class="col-md-12" id="top-logo">
-							<h1 id="university">ShanghaiTech University</h1>
-							<h1 id="school">School of Information Science and Technology</h1>
+							<h1 id="university">
+								{% ifequal LANGUAGE_CODE 'zh' %}
+									上海科技大学
+								{% else %}
+									ShanghaiTech University
+								{% endifequal %}
+							</h1>
+							<h1 id="school">
+								{% ifequal LANGUAGE_CODE 'zh' %}
+									信息科学与技术学院
+								{% else %}
+									School of Information Science and Technology
+								{% endifequal %}
+							</h1>
 						</div>
 					</div>
 				</div>
@@ -51,9 +75,6 @@
 
 		{% block root_body %}{% endblock %}
 
-		<div class="container default-hr">
-			<hr>
-		</div>
 		<div id="footer">
 			<div class="container">
 				<div class="row">
@@ -75,7 +96,7 @@
 					<div class="col-md-12 footer-end">
 						<h2>
 							<small>ShanghaiTech University <br>School of Information Science and Technology</small>
-						
+
 							<!-- <small>School of Information Science and Technology</small> -->
 							<span><br class="visible-xs-block" />Copyright © 2016 ShanghaiTech University · All rights reserved</span>
 						</h2>
